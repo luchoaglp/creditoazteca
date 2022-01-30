@@ -137,18 +137,18 @@ body {
         width: 100%;
     }
     .loans h6 {
-        font-size: .35rem;
+        font-size: .37rem;
     }
     .loans div.col-4:nth-child(1) h6 {
-        top: 2.75vw;
+        top: 3.25vw;
         left: 18vw;
     }
     .loans div.col-4:nth-child(2) h6 {
-        top: 2.75vw;
+        top: 3.25vw;
     }
     .loans div.col-4:nth-child(3) h6 {
-        top: 2.75vw;
-        right: 17.8vw;
+        top: 3.25vw;
+        right: 17.6vw;
     }
 }
 
