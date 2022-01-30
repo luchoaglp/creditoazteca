@@ -129,22 +129,26 @@ body {
     .loans {
         max-width: 100%;
     }
+    .loans div.col-4 {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
     .loans div img {
         width: 100%;
     }
     .loans h6 {
-        font-size: .31rem;
+        font-size: .35rem;
     }
     .loans div.col-4:nth-child(1) h6 {
-        top: 3.25vw;
-        left: 17vw;
+        top: 2.75vw;
+        left: 18vw;
     }
     .loans div.col-4:nth-child(2) h6 {
-        top: 3.25vw;
+        top: 2.75vw;
     }
     .loans div.col-4:nth-child(3) h6 {
-        top: 3.25vw;
-        right: 17vw;
+        top: 2.75vw;
+        right: 17.8vw;
     }
 }
 
@@ -290,6 +294,7 @@ body {
     .loans {
         max-width: 63vw;
     }
+    
     .loans div img {
         width: 19.7vw;
     }
