@@ -165,18 +165,18 @@ body {
         width: 100%;
     }
     .loans h6 {
-        font-size: .37rem;
+        font-size: .45rem;
     }
     .loans div.col-4:nth-child(1) h6 {
-        top: 3.25vw;
-        left: 18vw;
+        top: 2.9vw;
+        left: 15.2vw;
     }
     .loans div.col-4:nth-child(2) h6 {
-        top: 3.25vw;
+        top: 2.9vw;
     }
     .loans div.col-4:nth-child(3) h6 {
-        top: 3.25vw;
-        right: 17.6vw;
+        top: 2.9vw;
+        right: 14.6vw;
     }
 }
 
