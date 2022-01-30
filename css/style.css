@@ -4,13 +4,28 @@ body {
 }
 .top {
     font-weight: bold;
-    padding: .5em 0 .15em 0;
-    font-size: .8rem;
+    padding: .5vw 0 .15vw 0;
+    font-size: .95vw;
+    min-height: 3vw;
 }
 .top ul {
   list-style: none;
-  display: flex;
-  justify-content: space-evenly; 
+}
+.top ul li {
+    display: inline-block;
+    padding: 0 2.5vw;
+}
+.top ul li img {
+    margin-top: -2px;
+    width: 1.1vw;
+    vertical-align: middle;
+}
+.top ul li a {
+    text-decoration: none;
+    color: black;
+}
+.top ul li a:hover {
+    opacity: .7;
 }
 .top ul li button {
     border: none;
@@ -84,7 +99,6 @@ body {
 .nav-md li:nth-of-type(4)  {
     transform: translateY(-5%) rotate(-6deg);
 }
-
 .banner {
     position: relative;
     background: url(../img/banner.png) no-repeat center center; 
@@ -135,6 +149,35 @@ body {
 }
 .loans div.col-4:nth-child(3) h6 {
     text-align: left;
+}
+.company {
+    position: relative;
+    background: url(../img/company.png) no-repeat center center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 30vw;
+}
+
+.company div.col-4 {
+    position: relative;
+}
+.company div.col-12 h4 {
+    position: absolute;
+    color: white;
+    font-weight: 600;
+    letter-spacing: .17em;
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto;
+}
+.company div.col-4 h5 {
+    position: absolute;
+    color: #616463;
+    font-weight: 600;
+    letter-spacing: .06em;
 }
 @media only screen and (max-width: 599px) {
 
@@ -351,5 +394,24 @@ body {
     .loans div.col-4:nth-child(3) h6 {
         top: 1.9vw;
         right: 11.3vw;
+    }
+    .company div.col-4 h5 {
+        font-size: 1.275vw;
+    }
+    .company div.col-12 h4 {
+        font-size: 1.49vw;
+        top: 6.54vw;
+    }
+    .company div.col-4:nth-child(1) h5 {
+        top: 19.6vw;
+        left: 25.25vw;
+    }
+    .company div.col-4:nth-child(2) h5 {
+        top: 18.9vw;
+        left: 13.5vw;
+    }
+    .company div.col-4:nth-child(3) h5 {
+        top: 18.9vw;
+        left: 0vw;
     }
 }
