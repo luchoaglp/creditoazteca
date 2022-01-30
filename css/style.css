@@ -11,6 +11,10 @@ body {
     font-size: .8em;
     letter-spacing: .2em;
 }
+.navbar img.navbar-brand {
+    text-align: left;
+    width: 30%;
+}
 .nav-md {
     margin-top: -1vw;
     background: url(../img/header.png) no-repeat center center; 
@@ -77,33 +81,45 @@ body {
     font-weight: 600;
     line-height: 1.75em;
     letter-spacing: .05em;
+    padding: 0 1.75em;
 }
 
 .loans {
-    max-width: 60%;
+    max-width: 63vw;
+    position: relative;
+    margin-top: -10vw;
 }
 
 .loans h6 {
-    background-color: black;
+    position: absolute;
     color: white;
-    font-size: .8em;
+    font-size: .9vw;
+    letter-spacing: .09em;
     font-weight: 600;
+}
+.loans div.col-md-4:nth-child(2) {
+    margin-top: -.5vw;
 }
 
 .loans div.col-md-4:nth-child(1) h6 {
-    border-radius: 100% 0% 0% 0% / 85% 0% 0% 0%;
     text-align: right;
-    padding: 1.5em 1em 1em 0;
+    top: 1.9vw;
+    left: 11.7vw;
 }
 .loans div.col-md-4:nth-child(2) h6 {
-    border-radius: 100% 100% 0% 0% / 85% 85% 0% 0%;
-    padding: 3em 0 1em 0;
-    margin-top: -1.5em;
+    top: 1.9vw;
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto; 
 }
 .loans div.col-md-4:nth-child(3) h6 {
-    border-radius: 0% 100% 0% 0% / 0% 85% 0% 0%;
     text-align: left;
-    padding: 1.5em 0 1em 1em;
+    top: 1.9vw;
+    right: 11.3vw;
+}
+.loans div img {
+    width: 19.7vw;
 }
 @media only screen and (max-width: 599px) {
 
@@ -114,11 +130,11 @@ body {
         display: none;
     }
     .banner h1 {
-        padding-top: 2.5em;
+        padding-top: 1em;
         font-size: 1rem;
     }
     .banner p {
-        font-size: .52em;
+        font-size: .6em;
     }
 }
 
@@ -135,7 +151,7 @@ body {
         margin-top: 0;
     }
     .banner h1 {
-        padding-top: 3.5em;
+        padding-top: 3em;
         font-size: 1.5rem;
     }
     .banner p {
