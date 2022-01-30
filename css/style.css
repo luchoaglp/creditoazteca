@@ -2,6 +2,26 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
 }
+.top {
+    font-weight: bold;
+    padding: .5em 0 .16em 0;
+    font-size: .8rem;
+}
+.top ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly; 
+}
+.top ul li button {
+    border: none;
+    border-radius: 10px;
+    background-color: black;
+    color: #ffda00;
+    padding: .05em .8em .1em .8em;
+}
+.top ul li button:hover {
+    opacity: .7;
+}
 .navbar {
     background-color: black !important;
     box-shadow: 0 14px 14px -3px rgb(88, 88, 88);
