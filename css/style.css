@@ -3,6 +3,7 @@ body {
     text-align: center;
 }
 .navbar {
+    background-color: black !important;
     box-shadow: 0 14px 14px -3px rgb(88, 88, 88);
 }
 .navbar a.nav-link {
@@ -13,7 +14,7 @@ body {
 }
 .navbar img.navbar-brand {
     text-align: left;
-    width: 30%;
+    width: 32%;
 }
 .nav-md {
     margin-top: -1vw;
@@ -85,41 +86,30 @@ body {
 }
 
 .loans {
-    max-width: 63vw;
     position: relative;
     margin-top: -10vw;
 }
-
 .loans h6 {
     position: absolute;
     color: white;
-    font-size: .9vw;
     letter-spacing: .09em;
     font-weight: 600;
 }
-.loans div.col-md-4:nth-child(2) {
-    margin-top: -.5vw;
+.loans div.col-4:nth-child(2) {
+    margin-top: -.55vw;
 }
 
-.loans div.col-md-4:nth-child(1) h6 {
+.loans div.col-4:nth-child(1) h6 {
     text-align: right;
-    top: 1.9vw;
-    left: 11.7vw;
 }
-.loans div.col-md-4:nth-child(2) h6 {
-    top: 1.9vw;
+.loans div.col-4:nth-child(2) h6 {
     left: 0; 
     right: 0; 
     margin-left: auto; 
     margin-right: auto; 
 }
-.loans div.col-md-4:nth-child(3) h6 {
+.loans div.col-4:nth-child(3) h6 {
     text-align: left;
-    top: 1.9vw;
-    right: 11.3vw;
-}
-.loans div img {
-    width: 19.7vw;
 }
 @media only screen and (max-width: 599px) {
 
@@ -135,6 +125,26 @@ body {
     }
     .banner p {
         font-size: .6em;
+    }
+    .loans {
+        max-width: 100%;
+    }
+    .loans div img {
+        width: 100%;
+    }
+    .loans h6 {
+        font-size: .31rem;
+    }
+    .loans div.col-4:nth-child(1) h6 {
+        top: 3.25vw;
+        left: 17vw;
+    }
+    .loans div.col-4:nth-child(2) h6 {
+        top: 3.25vw;
+    }
+    .loans div.col-4:nth-child(3) h6 {
+        top: 3.25vw;
+        right: 17vw;
     }
 }
 
@@ -157,8 +167,26 @@ body {
     .banner p {
         font-size: .7em;
     }
-    
-  
+    .loans {
+        max-width: 100%;
+    }
+    .loans div img {
+        width: 100%;
+    }
+    .loans h6 {
+        font-size: .65rem;
+    }
+    .loans div.col-4:nth-child(1) h6 {
+        top: 3.25vw;
+        left: 19vw;
+    }
+    .loans div.col-4:nth-child(2) h6 {
+        top: 3.25vw;
+    }
+    .loans div.col-4:nth-child(3) h6 {
+        top: 3.25vw;
+        right: 18vw;
+    }
 }
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
@@ -179,7 +207,26 @@ body {
     .banner p {
         font-size: .8em;
     }
-
+    .loans {
+        max-width: 63vw;
+    }
+    .loans div img {
+        width: 19.7vw;
+    }
+    .loans h6 {
+        font-size: .9vw;
+    }
+    .loans div.col-4:nth-child(1) h6 {
+        top: 1.9vw;
+        left: 11.7vw;
+    }
+    .loans div.col-4:nth-child(2) h6 {
+        top: 1.9vw;
+    }
+    .loans div.col-4:nth-child(3) h6 {
+        top: 1.9vw;
+        right: 11.3vw;
+    }
 }
   /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
@@ -199,7 +246,26 @@ body {
     .banner p {
         font-size: .8em;
     }
-  
+    .loans {
+        max-width: 63vw;
+    }
+    .loans div img {
+        width: 19.7vw;
+    }
+    .loans h6 {
+        font-size: .9vw;
+    }
+    .loans div.col-4:nth-child(1) h6 {
+        top: 1.9vw;
+        left: 11.7vw;
+    }
+    .loans div.col-4:nth-child(2) h6 {
+        top: 1.9vw;
+    }
+    .loans div.col-4:nth-child(3) h6 {
+        top: 1.9vw;
+        right: 11.3vw;
+    }
 }
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
@@ -220,5 +286,25 @@ body {
     }
     .banner p {
         font-size: 1vw;
+    }
+    .loans {
+        max-width: 63vw;
+    }
+    .loans div img {
+        width: 19.7vw;
+    }
+    .loans h6 {
+        font-size: .9vw;
+    }
+    .loans div.col-4:nth-child(1) h6 {
+        top: 1.9vw;
+        left: 11.7vw;
+    }
+    .loans div.col-4:nth-child(2) h6 {
+        top: 1.9vw;
+    }
+    .loans div.col-4:nth-child(3) h6 {
+        top: 1.9vw;
+        right: 11.3vw;
     }
 }
