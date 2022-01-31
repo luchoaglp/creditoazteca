@@ -6,7 +6,7 @@ body {
     font-weight: bold;
     padding: .5vw 0 .15vw 0;
     font-size: .95vw;
-    min-height: 3.5vw;
+    min-height: 3.4vw;
 }
 .top ul {
   list-style: none;
@@ -29,10 +29,10 @@ body {
 }
 .top ul li button {
     border: none;
-    border-radius: 10px;
+    border-radius: 1em;
     background-color: black;
     color: #ffda00;
-    padding: .05em .8em .1em .8em;
+    padding: .1em .8em .09em .8em;
 }
 .top ul li button:hover {
     opacity: .7;
@@ -157,7 +157,6 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    min-height: 30vw;
 }
 
 .company div.col {
@@ -183,7 +182,6 @@ body {
     position: absolute;
     color: #616463;
     letter-spacing: .06em;
-    line-height: 1vw;
 }
 @media only screen and (max-width: 599px) {
 
@@ -226,6 +224,43 @@ body {
     .loans div.col-4:nth-child(3) h6 {
         top: 2.9vw;
         right: 14.6vw;
+    }
+    .company {
+        min-height: 51vw;
+    }
+    .company div.col-12 h4 {
+        font-size: 2.75vw;
+        top: 11.3vw;
+    }
+    .company div.col h5 {
+        font-size: 2vw;
+        line-height: 2.5vw;
+    }
+    .company div.col:nth-child(1) h5 {
+        top: 32vw;
+        left: 11vw;
+    }
+    .company div.col:nth-child(2) h5 {
+        top: 31vw;
+        left: 11.9vw;
+    }
+    .company div.col:nth-child(3) h5 {
+        top: 31vw;
+        left: 12vw;
+    }
+    .company div.col p {
+        font-size: 1.75vw;
+        line-height: 2vw;
+        top: 36.5vw;
+    }
+    .company div.col:nth-child(1) p {
+        left: 1.2vw;
+    }
+    .company div.col:nth-child(2) p {
+        left: 2.2vw;
+    }
+    .company div.col:nth-child(3) p {
+        left: 4vw;
     }
 }
 
@@ -271,18 +306,56 @@ body {
         top: 3.25vw;
         right: 18vw;
     }
+    .company {
+        min-height: 47vw;
+    }
+    .company div.col-12 h4 {
+        font-size: 2.5vw;
+        top: 10.5vw;
+    }
+    .company div.col h5 {
+        font-size: 2vw;
+        line-height: 2.25vw;
+    }
+    .company div.col:nth-child(1) h5 {
+        top: 31.5vw;
+        left: 12.3vw;
+    }
+    .company div.col:nth-child(2) h5 {
+        top: 30.5vw;
+        left: 11.9vw;
+    }
+    .company div.col:nth-child(3) h5 {
+        top: 30.5vw;
+        left: 9.5vw;
+    }
+    .company div.col p {
+        font-size: 1.5vw;
+        min-width: 25vw;
+        line-height: 1.7vw;
+        top: 35.5vw;
+    }
+    .company div.col:nth-child(1) p {
+        left: 5.8vw;
+    }
+    .company div.col:nth-child(2) p {
+        left: 5.1vw;
+    }
+    .company div.col:nth-child(3) p {
+        left: 3.3vw;
+    }
 }
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
     
     .top {
-        display: block;
-    }
-    .navbar {
         display: none;
     }
-    .nav-md {
+    .navbar {
         display: block;
+    }
+    .nav-md {
+        display: none;
     }
     .banner {
         margin-top: -11.75vw;
@@ -313,6 +386,43 @@ body {
     .loans div.col-4:nth-child(3) h6 {
         top: 1.9vw;
         right: 11.3vw;
+    }
+    .company {
+        min-height: 40vw;
+    }
+    .company div.col-12 h4 {
+        font-size: 1.9vw;
+        top: 9vw;
+    }
+    .company div.col h5 {
+        font-size: 1.7vw;
+        line-height: 2vw;
+    }
+    .company div.col:nth-child(1) h5 {
+        top: 26vw;
+        left: 17.5vw;
+    }
+    .company div.col:nth-child(2) h5 {
+        top: 25.1vw;
+        left: 13vw;
+    }
+    .company div.col:nth-child(3) h5 {
+        top: 25.1vw;
+        left: 6vw;
+    }
+    .company div.col p {
+        font-size: 1.1vw;
+        min-width: 20vw;
+        top: 29.5vw;
+    }
+    .company div.col:nth-child(1) p {
+        left: 12.9vw;
+    }
+    .company div.col:nth-child(2) p {
+        left: 6.9vw;
+    }
+    .company div.col:nth-child(3) p {
+        left: 1.7vw;
     }
 }
   /* Large devices (laptops/desktops, 992px and up) */
@@ -355,6 +465,44 @@ body {
     .loans div.col-4:nth-child(3) h6 {
         top: 1.9vw;
         right: 11.3vw;
+    }
+    .company {
+        min-height: 30vw;
+    }
+    .company div.col h5 {
+        font-size: 1.275vw;
+        line-height: 1.5vw;
+    }
+    .company div.col-12 h4 {
+        font-size: 1.49vw;
+        top: 6.54vw;
+    }
+    .company div.col:nth-child(1) h5 {
+        top: 19.6vw;
+        left: 25.25vw;
+    }
+    .company div.col:nth-child(2) h5 {
+        top: 18.9vw;
+        left: 13.5vw;
+    }
+    .company div.col:nth-child(3) h5 {
+        top: 18.9vw;
+        left: .17vw;
+    }
+    .company div.col p {
+        font-size: .8vw;
+        min-width: 22vw;
+        line-height: 1vw;
+        top: 22.5vw;
+    }
+    .company div.col:nth-child(1) p {
+        left: 18.2vw;
+    }
+    .company div.col:nth-child(2) p {
+        left: 6vw;
+    }
+    .company div.col:nth-child(3) p {
+        left: -6.1vw;
     }
 }
 /* Extra large devices (large laptops and desktops, 1200px and up) */
@@ -401,8 +549,12 @@ body {
         top: 1.9vw;
         right: 11.3vw;
     }
+    .company {
+        min-height: 30vw;
+    }
     .company div.col h5 {
         font-size: 1.275vw;
+        line-height: 1.5vw;
     }
     .company div.col-12 h4 {
         font-size: 1.49vw;
@@ -418,23 +570,21 @@ body {
     }
     .company div.col:nth-child(3) h5 {
         top: 18.9vw;
-        left: 0vw;
+        left: .25vw;
     }
     .company div.col p {
         font-size: .75vw;
         min-width: 20vw;
+        line-height: 1vw;
+        top: 22.5vw;
     }
     .company div.col:nth-child(1) p {
-        top: 22.5vw;
         left: 19.2vw;
-      
     }
     .company div.col:nth-child(2) p {
-        top: 22.5vw;
         left: 6.9vw;
     }
     .company div.col:nth-child(3) p {
-        top: 22.5vw;
-        left: -5.9vw;
+        left: -5.5vw;
     }
 }
