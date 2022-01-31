@@ -159,7 +159,7 @@ body {
     background-size: cover;
 }
 
-.company div.col {
+.company div {
     position: relative;
 }
 .company div.col-12 h4 {
@@ -179,6 +179,39 @@ body {
     letter-spacing: .06em;
 }
 .company div.col p {
+    position: absolute;
+    color: #616463;
+    letter-spacing: .06em;
+}
+.company div {
+    position: relative;
+}
+.branch div {
+    position: relative;
+}
+.branch div.col-12 h4 {
+    position: absolute;
+    /*color: white;*/
+    font-weight: 600;
+    letter-spacing: .17em;
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto;
+}
+.branch div.col-4 h5 {
+    position: absolute;
+    color: #616463;
+    font-weight: 600;
+    letter-spacing: .06em;
+}
+.branch div.col-4 h6 {
+    position: absolute;
+    color: #616463;
+    font-weight: bold;
+    letter-spacing: .06em;
+}
+.branch div.col-4 p {
     position: absolute;
     color: #616463;
     letter-spacing: .06em;
