@@ -160,7 +160,7 @@ body {
     min-height: 30vw;
 }
 
-.company div.col-4 {
+.company div.col {
     position: relative;
 }
 .company div.col-12 h4 {
@@ -173,11 +173,17 @@ body {
     margin-left: auto; 
     margin-right: auto;
 }
-.company div.col-4 h5 {
+.company div.col h5 {
     position: absolute;
     color: #616463;
     font-weight: 600;
     letter-spacing: .06em;
+}
+.company div.col p {
+    position: absolute;
+    color: #616463;
+    letter-spacing: .06em;
+    line-height: 1vw;
 }
 @media only screen and (max-width: 599px) {
 
@@ -395,23 +401,40 @@ body {
         top: 1.9vw;
         right: 11.3vw;
     }
-    .company div.col-4 h5 {
+    .company div.col h5 {
         font-size: 1.275vw;
     }
     .company div.col-12 h4 {
         font-size: 1.49vw;
         top: 6.54vw;
     }
-    .company div.col-4:nth-child(1) h5 {
+    .company div.col:nth-child(1) h5 {
         top: 19.6vw;
         left: 25.25vw;
     }
-    .company div.col-4:nth-child(2) h5 {
+    .company div.col:nth-child(2) h5 {
         top: 18.9vw;
         left: 13.5vw;
     }
-    .company div.col-4:nth-child(3) h5 {
+    .company div.col:nth-child(3) h5 {
         top: 18.9vw;
         left: 0vw;
+    }
+    .company div.col p {
+        font-size: .75vw;
+        min-width: 20vw;
+    }
+    .company div.col:nth-child(1) p {
+        top: 22.5vw;
+        left: 19.2vw;
+      
+    }
+    .company div.col:nth-child(2) p {
+        top: 22.5vw;
+        left: 6.9vw;
+    }
+    .company div.col:nth-child(3) p {
+        top: 22.5vw;
+        left: -5.9vw;
     }
 }
