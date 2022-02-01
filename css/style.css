@@ -149,19 +149,18 @@ body {
 .loans div.col-4:nth-child(3) h6 {
     text-align: left;
 }
-.company {
+.about {
     position: relative;
-    background: url(../img/company.png) no-repeat center center; 
+    background: url(../img/about.png) no-repeat center center; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
 }
-
-.company div {
+.about div {
     position: relative;
 }
-.company div.col-12 h4 {
+.about div.col-12 h4 {
     position: absolute;
     color: white;
     font-weight: 600;
@@ -171,19 +170,24 @@ body {
     margin-left: auto; 
     margin-right: auto;
 }
-.company div.col h5 {
+.about div.col h5 {
     position: absolute;
     color: #616463;
     font-weight: 600;
     letter-spacing: .06em;
 }
-.company div.col p {
+.about div.col p {
     position: absolute;
     color: #616463;
     letter-spacing: .06em;
 }
-.company div {
+.branch {
     position: relative;
+    background: url(../img/branch.png) no-repeat center center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 .branch div {
     position: relative;
@@ -260,42 +264,42 @@ body {
         top: 2.9vw;
         right: 14.6vw;
     }
-    .company {
+    .about {
         min-height: 54vw;
     }
-    .company div.col-12 h4 {
+    .about div.col-12 h4 {
         font-size: 2.75vw;
         top: 12.5vw;
     }
-    .company div.col h5 {
+    .about div.col h5 {
         font-size: 2vw;
         line-height: 2.3vw;
     }
-    .company div.col:nth-child(1) h5 {
+    .about div.col:nth-child(1) h5 {
         top: 34vw;
         left: 8.6vw;
     }
-    .company div.col:nth-child(2) h5 {
+    .about div.col:nth-child(2) h5 {
         top: 33vw;
         left: 11.9vw;
     }
-    .company div.col:nth-child(3) h5 {
+    .about div.col:nth-child(3) h5 {
         top: 33vw;
         left: 13.8vw;
     }
-    .company div.col p {
+    .about div.col p {
         font-size: 1.85vw;
         line-height: 1.85vw;
         top: 38.5vw;
         padding: 0 1.3em;
     }
-    .company div.col:nth-child(1) p {
+    .about div.col:nth-child(1) p {
         left: -2vw;
     }
-    .company div.col:nth-child(2) p {
+    .about div.col:nth-child(2) p {
         left: 2.5vw;
     }
-    .company div.col:nth-child(3) p {
+    .about div.col:nth-child(3) p {
         left: 6vw;
     }
 }
@@ -343,42 +347,42 @@ body {
         top: 3.25vw;
         right: 18vw;
     }
-    .company {
+    .about {
         min-height: 47vw;
     }
-    .company div.col-12 h4 {
+    .about div.col-12 h4 {
         font-size: 2.5vw;
         top: 10.5vw;
     }
-    .company div.col h5 {
+    .about div.col h5 {
         font-size: 2vw;
         line-height: 2.25vw;
     }
-    .company div.col:nth-child(1) h5 {
+    .about div.col:nth-child(1) h5 {
         top: 31.5vw;
         left: 12.3vw;
     }
-    .company div.col:nth-child(2) h5 {
+    .about div.col:nth-child(2) h5 {
         top: 30.5vw;
         left: 11.9vw;
     }
-    .company div.col:nth-child(3) h5 {
+    .about div.col:nth-child(3) h5 {
         top: 30.5vw;
         left: 9.5vw;
     }
-    .company div.col p {
+    .about div.col p {
         font-size: 1.5vw;
         min-width: 25vw;
         line-height: 1.7vw;
         top: 35.5vw;
     }
-    .company div.col:nth-child(1) p {
+    .about div.col:nth-child(1) p {
         left: 5.8vw;
     }
-    .company div.col:nth-child(2) p {
+    .about div.col:nth-child(2) p {
         left: 5.1vw;
     }
-    .company div.col:nth-child(3) p {
+    .about div.col:nth-child(3) p {
         left: 3.3vw;
     }
 }
@@ -425,41 +429,41 @@ body {
         top: 1.9vw;
         right: 11.3vw;
     }
-    .company {
+    .about {
         min-height: 40vw;
     }
-    .company div.col-12 h4 {
+    .about div.col-12 h4 {
         font-size: 1.9vw;
         top: 9vw;
     }
-    .company div.col h5 {
+    .about div.col h5 {
         font-size: 1.7vw;
         line-height: 2vw;
     }
-    .company div.col:nth-child(1) h5 {
+    .about div.col:nth-child(1) h5 {
         top: 26vw;
         left: 17.8vw;
     }
-    .company div.col:nth-child(2) h5 {
+    .about div.col:nth-child(2) h5 {
         top: 25.1vw;
         left: 13vw;
     }
-    .company div.col:nth-child(3) h5 {
+    .about div.col:nth-child(3) h5 {
         top: 25.1vw;
         left: 6vw;
     }
-    .company div.col p {
+    .about div.col p {
         font-size: 1.1vw;
         min-width: 20vw;
         top: 29.5vw;
     }
-    .company div.col:nth-child(1) p {
+    .about div.col:nth-child(1) p {
         left: 12.9vw;
     }
-    .company div.col:nth-child(2) p {
+    .about div.col:nth-child(2) p {
         left: 6.9vw;
     }
-    .company div.col:nth-child(3) p {
+    .about div.col:nth-child(3) p {
         left: 1.7vw;
     }
 }
@@ -505,42 +509,42 @@ body {
         top: 1.9vw;
         right: 11.3vw;
     }
-    .company {
+    .about {
         min-height: 30vw;
     }
-    .company div.col h5 {
+    .about div.col h5 {
         font-size: 1.275vw;
         line-height: 1.5vw;
     }
-    .company div.col-12 h4 {
+    .about div.col-12 h4 {
         font-size: 1.49vw;
         top: 6.54vw;
     }
-    .company div.col:nth-child(1) h5 {
+    .about div.col:nth-child(1) h5 {
         top: 19.6vw;
         left: 25.25vw;
     }
-    .company div.col:nth-child(2) h5 {
+    .about div.col:nth-child(2) h5 {
         top: 18.9vw;
         left: 13.5vw;
     }
-    .company div.col:nth-child(3) h5 {
+    .about div.col:nth-child(3) h5 {
         top: 18.9vw;
         left: .17vw;
     }
-    .company div.col p {
+    .about div.col p {
         font-size: .8vw;
         min-width: 22vw;
         line-height: 1vw;
         top: 22.5vw;
     }
-    .company div.col:nth-child(1) p {
+    .about div.col:nth-child(1) p {
         left: 18.2vw;
     }
-    .company div.col:nth-child(2) p {
+    .about div.col:nth-child(2) p {
         left: 6vw;
     }
-    .company div.col:nth-child(3) p {
+    .about div.col:nth-child(3) p {
         left: -6.1vw;
     }
 }
@@ -589,42 +593,45 @@ body {
         top: 1.9vw;
         right: 11.3vw;
     }
-    .company {
+    .about {
         min-height: 30vw;
     }
-    .company div.col h5 {
+    .about div.col h5 {
         font-size: 1.275vw;
         line-height: 1.5vw;
     }
-    .company div.col-12 h4 {
+    .about div.col-12 h4 {
         font-size: 1.49vw;
         top: 6.54vw;
     }
-    .company div.col:nth-child(1) h5 {
+    .about div.col:nth-child(1) h5 {
         top: 19.6vw;
         left: 25.25vw;
     }
-    .company div.col:nth-child(2) h5 {
+    .about div.col:nth-child(2) h5 {
         top: 18.9vw;
         left: 13.5vw;
     }
-    .company div.col:nth-child(3) h5 {
+    .about div.col:nth-child(3) h5 {
         top: 18.9vw;
         left: .25vw;
     }
-    .company div.col p {
+    .about div.col p {
         font-size: .75vw;
         min-width: 20vw;
         line-height: 1vw;
         top: 22.5vw;
     }
-    .company div.col:nth-child(1) p {
+    .about div.col:nth-child(1) p {
         left: 19.2vw;
     }
-    .company div.col:nth-child(2) p {
+    .about div.col:nth-child(2) p {
         left: 6.9vw;
     }
-    .company div.col:nth-child(3) p {
+    .about div.col:nth-child(3) p {
         left: -5.5vw;
+    }
+    .branch {
+        min-height: 19.5vw;
     }
 }
