@@ -280,26 +280,26 @@ body {
         top: 9.5vw;
     }
     .about div.col h5 {
-        font-size: 2.75vw;
+        font-size: 2.5vw;
         line-height: 3vw;
     }
     .about div.col:nth-child(1) h5 {
         top: 32.5vw;
-        left: 8.6vw;
+        left: 8.7vw;
     }
     .about div.col:nth-child(2) h5 {
         top: 31.5vw;
-        left: 9.9vw
+        left: 10.5vw
     }
     .about div.col:nth-child(3) h5 {
         top: 31.5vw;
-        left: 9vw;
+        left: 9.9vw;
     }
     .about div.col p {
         font-size: 2.25vw;
         line-height: 2.75vw;
         top: 39vw;
-        padding: 0 .1em;
+        padding: 0 .7em;
     }
     .about div.col:nth-child(1) p {
         left: 0vw;
