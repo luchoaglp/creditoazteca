@@ -164,7 +164,7 @@ body {
     position: absolute;
     color: white;
     font-weight: 600;
-    letter-spacing: .17em;
+    letter-spacing: .18em;
     left: 0; 
     right: 0; 
     margin-left: auto; 
@@ -194,9 +194,9 @@ body {
 }
 .branch div.col-12 h4 {
     position: absolute;
-    /*color: white;*/
+    color: white;
     font-weight: 600;
-    letter-spacing: .17em;
+    letter-spacing: .18em;
     left: 0; 
     right: 0; 
     margin-left: auto; 
@@ -303,7 +303,11 @@ body {
         left: 6.8vw;
     }
     .branch {
-        min-height: 19.5vw;
+        min-height: 34.5vw;
+    }
+    .branch div.col-12 h4 {
+        font-size: 2.75vw;
+        top: 2vw;
     }
 }
 
@@ -389,7 +393,11 @@ body {
         left: 3.3vw;
     }
     .branch {
-        min-height: 19.5vw;
+        min-height: 30vw;
+    }
+    .branch div.col-12 h4 {
+        font-size: 2.5vw;
+        top: 1.6vw;
     }
 }
 /* Medium devices (landscape tablets, 768px and up) */
@@ -473,7 +481,11 @@ body {
         left: 1.7vw;
     }
     .branch {
-        min-height: 19.5vw;
+        min-height: 26.5vw;
+    }
+    .branch div.col-12 h4 {
+        font-size: 1.9vw;
+        top: 1.8vw;
     }
 }
   /* Large devices (laptops/desktops, 992px and up) */
@@ -558,6 +570,10 @@ body {
     }
     .branch {
         min-height: 19.5vw;
+    }
+    .branch div.col-12 h4 {
+        font-size: 1.49vw;
+        top: 1.15vw;
     }
 }
 /* Extra large devices (large laptops and desktops, 1200px and up) */
@@ -645,5 +661,9 @@ body {
     }
     .branch {
         min-height: 19.5vw;
+    }
+    .branch div.col-12 h4 {
+        font-size: 1.49vw;
+        top: 1.15vw;
     }
 }
