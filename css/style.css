@@ -204,7 +204,7 @@ body {
 }
 .branch div.col-4 h5 {
     position: absolute;
-    color: #616463;
+    color: #504f4a;
     font-weight: 600;
     letter-spacing: .06em;
 }
@@ -216,9 +216,10 @@ body {
 }
 .branch div.col-4 p {
     position: absolute;
-    color: #616463;
+    color: #696b6a;
     letter-spacing: .06em;
 }
+
 @media only screen and (max-width: 599px) {
 
     .top {
@@ -291,7 +292,7 @@ body {
         font-size: 1.85vw;
         line-height: 1.85vw;
         top: 38.5vw;
-        padding: 0 1.3em;
+        padding: 0 1.2em;
     }
     .about div.col:nth-child(1) p {
         left: -2vw;
@@ -308,6 +309,21 @@ body {
     .branch div.col-12 h4 {
         font-size: 2.75vw;
         top: 2vw;
+    }
+    .branch div.col-4 h5 {
+        font-size: 1.6vw;
+    }
+    .branch div.col-4:nth-child(1) h5 {
+        top: 17.1vw;
+        left: 6.1vw
+    }
+    .branch div.col-4:nth-child(2) h5 { 
+        top: 21vw;
+        left: 13vw;
+    }
+    .branch div.col-4:nth-child(3) h5 {
+        top: 17.1vw;
+        left: 15.5vw;
     }
 }
 
@@ -399,6 +415,21 @@ body {
         font-size: 2.5vw;
         top: 1.6vw;
     }
+    .branch div.col-4 h5 {
+        font-size: 1.42vw;
+    }
+    .branch div.col-4:nth-child(1) h5 {
+        top: 15vw;
+        left: 12.1vw;
+    }
+    .branch div.col-4:nth-child(2) h5 { 
+        top: 18.4vw;
+        left: 13.61vw;
+    }
+    .branch div.col-4:nth-child(3) h5 {
+        top: 15vw;
+        left: 11.2vw;
+    }
 }
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
@@ -460,11 +491,11 @@ body {
     }
     .about div.col:nth-child(2) h5 {
         top: 25.1vw;
-        left: 13vw;
+        left: 12.5vw;
     }
     .about div.col:nth-child(3) h5 {
         top: 25.1vw;
-        left: 6vw;
+        left: 5.6vw;
     }
     .about div.col p {
         font-size: 1.1vw;
@@ -472,13 +503,13 @@ body {
         top: 29.5vw;
     }
     .about div.col:nth-child(1) p {
-        left: 12.9vw;
+        left: 12.7vw;
     }
     .about div.col:nth-child(2) p {
         left: 6.9vw;
     }
     .about div.col:nth-child(3) p {
-        left: 1.7vw;
+        left: 1.6vw;
     }
     .branch {
         min-height: 26.5vw;
@@ -486,6 +517,21 @@ body {
     .branch div.col-12 h4 {
         font-size: 1.9vw;
         top: 1.8vw;
+    }
+    .branch div.col-4 h5 {
+        font-size: 1.3vw;
+    }
+    .branch div.col-4:nth-child(1) h5 {
+        top: 13.3vw;
+        left: 16.27vw;
+    }
+    .branch div.col-4:nth-child(2) h5 { 
+        top: 16.2vw;
+        left: 13.85vw;
+    }
+    .branch div.col-4:nth-child(3) h5 {
+        top: 13.3vw;
+        left: 7.7vw;
     }
 }
   /* Large devices (laptops/desktops, 992px and up) */
@@ -575,6 +621,21 @@ body {
         font-size: 1.49vw;
         top: 1.15vw;
     }
+    .branch div.col-4 h5 {
+        font-size: .94vw;
+    }
+    .branch div.col-4:nth-child(1) h5 {
+        top: 9.72vw;
+        left: 25.26vw;
+    }
+    .branch div.col-4:nth-child(2) h5 {
+        top: 11.9vw;
+        left: 14.6vw;
+    }
+    .branch div.col-4:nth-child(3) h5 {
+        top: 9.72vw;
+        left: 1.5vw;
+    }
 }
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
@@ -624,13 +685,13 @@ body {
     .about {
         min-height: 30vw;
     }
-    .about div.col h5 {
-        font-size: 1.275vw;
-        line-height: 1.5vw;
-    }
     .about div.col-12 h4 {
         font-size: 1.49vw;
         top: 6.54vw;
+    }
+    .about div.col h5 {
+        font-size: 1.275vw;
+        line-height: 1.5vw;
     }
     .about div.col:nth-child(1) h5 {
         top: 19.6vw;
@@ -665,5 +726,20 @@ body {
     .branch div.col-12 h4 {
         font-size: 1.49vw;
         top: 1.15vw;
+    }
+    .branch div.col-4 h5 {
+        font-size: .94vw;
+    }
+    .branch div.col-4:nth-child(1) h5 {
+        top: 9.72vw;
+        left: 25.26vw;
+    }
+    .branch div.col-4:nth-child(2) h5 {
+        top: 11.9vw;
+        left: 14.6vw;
+    }
+    .branch div.col-4:nth-child(3) h5 {
+        top: 9.72vw;
+        left: 1.5vw;
     }
 }
