@@ -300,7 +300,10 @@ body {
         left: 2.5vw;
     }
     .about div.col:nth-child(3) p {
-        left: 6vw;
+        left: 6.8vw;
+    }
+    .branch {
+        min-height: 19.5vw;
     }
 }
 
@@ -385,6 +388,9 @@ body {
     .about div.col:nth-child(3) p {
         left: 3.3vw;
     }
+    .branch {
+        min-height: 19.5vw;
+    }
 }
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
@@ -466,6 +472,9 @@ body {
     .about div.col:nth-child(3) p {
         left: 1.7vw;
     }
+    .branch {
+        min-height: 19.5vw;
+    }
 }
   /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
@@ -546,6 +555,9 @@ body {
     }
     .about div.col:nth-child(3) p {
         left: -6.1vw;
+    }
+    .branch {
+        min-height: 19.5vw;
     }
 }
 /* Extra large devices (large laptops and desktops, 1200px and up) */
