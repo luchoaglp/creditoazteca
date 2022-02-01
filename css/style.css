@@ -273,42 +273,42 @@ body {
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
-        min-height: 65vw;
+        min-height: 70vw;
     }
     .about div.col-12 h4 {
         font-size: 2.75vw;
-        top: 9.5vw;
+        top: 11.75vw;
     }
     .about div.col h5 {
         font-size: 2.5vw;
         line-height: 3vw;
     }
     .about div.col:nth-child(1) h5 {
-        top: 32.5vw;
-        left: 8.7vw;
+        top: 34.5vw;
+        left: 8.1vw;
     }
     .about div.col:nth-child(2) h5 {
-        top: 31.5vw;
+        top: 33.5vw;
         left: 10.5vw
     }
     .about div.col:nth-child(3) h5 {
-        top: 31.5vw;
-        left: 9.9vw;
+        top: 33.5vw;
+        left: 10.5vw;
     }
     .about div.col p {
-        font-size: 2.25vw;
+        font-size: 2.3vw;
         line-height: 2.75vw;
-        top: 39vw;
-        padding: 0 .7em;
+        top: 41vw;
+        padding: 0 1em;
     }
     .about div.col:nth-child(1) p {
-        left: 0vw;
+        left: -1.5vw;
     }
     .about div.col:nth-child(2) p {
-        left: 2.5vw;
+        left: 2vw;
     }
     .about div.col:nth-child(3) p {
-        left: 3vw;
+        left: 3.2vw;
     }
     .branch {
         min-height: 34.5vw;
