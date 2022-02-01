@@ -210,9 +210,10 @@ body {
 }
 .branch div.col-4 h6 {
     position: absolute;
-    color: #616463;
+    color: #4a4c48;
     font-weight: bold;
     letter-spacing: .06em;
+    text-shadow: 0px 1px 1px #000;
 }
 .branch div.col-4 p {
     position: absolute;
@@ -325,6 +326,30 @@ body {
         top: 17.1vw;
         left: 15.5vw;
     }
+    .branch div.col-4 h6 {
+        font-size: 1.4vw;
+    }
+    .branch div.col-4:nth-child(1) h6 {
+        top: 21.3vw;
+        left: 6vw
+    }
+    .branch div.col-4:nth-child(2) .row {
+        top: 25.5vw;
+        left: -2.1vw
+    }
+    .branch div.col-4:nth-child(2) .row div.col:nth-child(1) {
+        left: -5vw;
+    }
+    .branch div.col-4:nth-child(2) .row div.col:nth-child(3) {
+        padding-right: 0;
+        padding-left: 0;
+        left: 6.6vw;
+        min-width: 10vw;
+    }
+    .branch div.col-4:nth-child(3) h6 {
+        top: 21.3vw;
+        left: 15.3vw;
+    }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -430,6 +455,27 @@ body {
         top: 15vw;
         left: 11.2vw;
     }
+    .branch div.col-4 h6 {
+        font-size: 1.23vw;
+    }
+    .branch div.col-4:nth-child(1) h6 {
+        top: 18.5vw;
+        left: 12vw
+    }
+    .branch div.col-4:nth-child(2) .row {
+        top: 22vw;
+        left: -.6vw
+    }
+    .branch div.col-4:nth-child(2) .row div.col:nth-child(1) {
+        left: -3.1vw;
+    }
+    .branch div.col-4:nth-child(2) .row div.col:nth-child(3) {
+        left: 2.9vw;
+    }
+    .branch div.col-4:nth-child(3) h6 {
+        top: 18.5vw;
+        left: 11vw;
+    }
 }
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
@@ -531,6 +577,30 @@ body {
     }
     .branch div.col-4:nth-child(3) h5 {
         top: 13.3vw;
+        left: 7.7vw;
+    }
+    .branch div.col-4 h6 {
+        font-size: 1.1vw;
+    }
+    .branch div.col-4:nth-child(1) h6 {
+        top: 16.24vw;
+        left: 16.3vw
+    }
+    .branch div.col-4:nth-child(2) .row {
+        top: 19.45vw;
+        left: 0.3vw
+    }
+    .branch div.col-4:nth-child(2) .row div.col:nth-child(1) {
+        left: -1.4vw;
+    }
+    .branch div.col-4:nth-child(2) .row div.col:nth-child(2) {
+
+    }
+    .branch div.col-4:nth-child(2) .row div.col:nth-child(3) {
+        left: 1.2vw;
+    }
+    .branch div.col-4:nth-child(3) h6 {
+        top: 16.24vw;
         left: 7.7vw;
     }
 }
@@ -635,6 +705,28 @@ body {
     .branch div.col-4:nth-child(3) h5 {
         top: 9.72vw;
         left: 1.5vw;
+    }
+
+    .branch div.col-4 h6 {
+        font-size: .77vw;
+    }
+    .branch div.col-4:nth-child(1) h6 {
+        top: 12.05vw;
+        left: 25.3vw;
+    }
+    .branch div.col-4:nth-child(2) .row {
+        top: 14.45vw;
+        left: 1.7vw;
+    }
+    .branch div.col-4:nth-child(2) .row div.col:nth-child(1) {
+        left: 1.9vw;
+    }
+    .branch div.col-4:nth-child(2) .row div.col:nth-child(3) {
+        left: -1.9vw;
+    }
+    .branch div.col-4:nth-child(3) h6 {
+        top: 12.05vw;
+        left: 1.31vw;
     }
 }
 /* Extra large devices (large laptops and desktops, 1200px and up) */
@@ -741,5 +833,26 @@ body {
     .branch div.col-4:nth-child(3) h5 {
         top: 9.72vw;
         left: 1.5vw;
+    }
+    .branch div.col-4 h6 {
+        font-size: .77vw;
+    }
+    .branch div.col-4:nth-child(1) h6 {
+        top: 12.05vw;
+        left: 25.3vw;
+    }
+    .branch div.col-4:nth-child(2) .row {
+        top: 14.45vw;
+        left: 1.7vw;
+    }
+    .branch div.col-4:nth-child(2) .row div.col:nth-child(1) {
+        left: 1.9vw;
+    }
+    .branch div.col-4:nth-child(2) .row div.col:nth-child(3) {
+        left: -1.9vw;
+    }
+    .branch div.col-4:nth-child(3) h6 {
+        top: 12.05vw;
+        left: 1.31vw;
     }
 }
