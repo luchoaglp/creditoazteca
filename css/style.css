@@ -267,42 +267,48 @@ body {
         right: 14.6vw;
     }
     .about {
-        min-height: 54vw;
+        position: relative;
+        background: url(../img/about-sm.png) no-repeat center center; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        min-height: 65vw;
     }
     .about div.col-12 h4 {
         font-size: 2.75vw;
-        top: 12.5vw;
+        top: 9.5vw;
     }
     .about div.col h5 {
-        font-size: 2vw;
-        line-height: 2.3vw;
+        font-size: 2.75vw;
+        line-height: 3vw;
     }
     .about div.col:nth-child(1) h5 {
-        top: 34vw;
+        top: 32.5vw;
         left: 8.6vw;
     }
     .about div.col:nth-child(2) h5 {
-        top: 33vw;
-        left: 11.9vw;
+        top: 31.5vw;
+        left: 9.9vw
     }
     .about div.col:nth-child(3) h5 {
-        top: 33vw;
-        left: 13.8vw;
+        top: 31.5vw;
+        left: 9vw;
     }
     .about div.col p {
-        font-size: 1.85vw;
-        line-height: 1.85vw;
-        top: 38.5vw;
-        padding: 0 1.2em;
+        font-size: 2.25vw;
+        line-height: 2.75vw;
+        top: 39vw;
+        padding: 0 .1em;
     }
     .about div.col:nth-child(1) p {
-        left: -2vw;
+        left: 0vw;
     }
     .about div.col:nth-child(2) p {
         left: 2.5vw;
     }
     .about div.col:nth-child(3) p {
-        left: 6.8vw;
+        left: 3vw;
     }
     .branch {
         min-height: 34.5vw;
