@@ -206,7 +206,7 @@ body {
 }
 .branch div.col-4 h5 {
     position: absolute;
-    color: #504f4a;
+    color: #31312f;
     font-weight: 600;
     letter-spacing: .06em;
 }
@@ -215,7 +215,6 @@ body {
     color: #4a4c48;
     font-weight: bold;
     letter-spacing: .06em;
-    /*text-shadow: 0px 1px 1px #000;*/
 }
 .branch div.col-4 p {
     position: absolute;
