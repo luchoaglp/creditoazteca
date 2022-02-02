@@ -424,50 +424,60 @@ body {
         left: 3.3vw;
     }
     .branch {
-        min-height: 36vw;
+        background: url(../img/branch-sm.png) no-repeat center center; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        min-height: 66vw;
     }
     .branch div.col-12 h4 {
         font-size: 2.5vw;
-        top: 1.7vw;
+        top: 1.3vw;
     }
     .branch div.col-4 h5 {
         font-size: 1.9vw;
     }
     .branch div.col-4:nth-child(1) h5 {
         top: 15.3vw;
-        left: 10.27vw;
+        left: 9vw;
     }
     .branch div.col-4:nth-child(2) h5 { 
         top: 19vw;
-        left: 13.85vw;
+        left: 12.5vw;
     }
     .branch div.col-4:nth-child(3) h5 {
         top: 15.3vw;
-        left: 11vw;
+        left: 12vw;
     }
 
     .branch div.col-4 h6 {
         font-size: 1.7vw;
     }
     .branch div.col-4:nth-child(1) h6 {
-        top: 18.3vw;
-        left: 10.3vw;
+        top: 19.5vw;
+        left: 9.1vw;
     }
     .branch div.col-4:nth-child(3) h6 {
-        top: 18.3vw;
-        left: 7.9vw;
+        top: 19.5vw;
+        left: 12vw;
     }
+    /*
     .branch div.col-4:nth-child(2) .row div.col h6 {
-        top: 21.5vw;
+        top: 23vw;
     }
+    */
     .branch div.col-4:nth-child(2) .row div.col:nth-child(1) h6 {
-        left: .1vw;
+        top: 23vw;
+        left: 2vw;
     }
     .branch div.col-4:nth-child(2) .row div.col:nth-child(2) h6 {
-        left: 1.5vw;
+        top: 23vw;
+        left: 10.2vw;
     }
     .branch div.col-4:nth-child(2) .row div.col:nth-child(3) h6 {
-        left: 2.7vw;
+        top: 40vw;
+        left: -10vw;
     }
     .branch div.col-4 p {
         font-size: 1.5vw;
@@ -475,24 +485,29 @@ body {
         line-height: 2vw;
     }
     .branch div.col-4:nth-child(1) p {
-        top: 21vw;
-        left: 8.3vw;
+        top: 22vw;
+        left: 7.3vw;
     }
     .branch div.col-4:nth-child(3) p {
-        top: 21vw;
-        left: 6vw;
+        top: 22vw;
+        left: 10vw;
     }
+    /*
     .branch div.col-4:nth-child(2) .row div.col p {
         top: 25vw;
     }
+    **/
     .branch div.col-4:nth-child(2) .row div.col:nth-child(1) p {
-        left: -1.1vw;
+        top: 25.5vw;
+        left: 0vw;
     }
     .branch div.col-4:nth-child(2) .row div.col:nth-child(2) p {
-        left: .4vw;
+        top: 25.5vw;
+        left: 8.4vw;
     }
     .branch div.col-4:nth-child(2) .row div.col:nth-child(3) p {
-        left: 1.9vw;
+        top: 43vw;
+        left: -12.1vw;
     }
   
 }
