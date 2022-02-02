@@ -249,8 +249,8 @@ body {
         max-width: 100%;
     }
     .loans div.col-4 {
-        padding-left: 3px;
-        padding-right: 3px;
+        padding-left: 2px;
+        padding-right: 2px;
     }
     .loans div img {
         width: 100%;
@@ -259,18 +259,17 @@ body {
         font-size: .45rem;
     }
     .loans div.col-4:nth-child(1) h6 {
-        top: 2.9vw;
-        left: 15.8vw;
+        top: 3.4vw;
+        left: 16.5vw;
     }
     .loans div.col-4:nth-child(2) h6 {
-        top: 2.9vw;
+        top: 3.4vw;
     }
     .loans div.col-4:nth-child(3) h6 {
-        top: 2.9vw;
-        right: 14.9vw;
+        top: 3.4vw;
+        right: 15.7vw;
     }
     .about {
-        /*position: relative;*/
         background: url(../img/about-sm.png) no-repeat center center; 
         -webkit-background-size: cover;
         -moz-background-size: cover;
@@ -322,7 +321,7 @@ body {
         min-height: 68.5vw;
     }
     .branch div.col-12 h4 {
-        font-size: 2.5vw;
+        font-size: 2.75vw;
         top: 1.5vw;
     }
     .branch div.col-4 h5 {
@@ -345,11 +344,11 @@ body {
         font-size: 2.5vw;
     }
     .branch div.col-4:nth-child(1) h6 {
-        top: 21vw;
+        top: 21.3vw;
         left: 7vw;
     }
     .branch div.col-4:nth-child(3) h6 {
-        top: 21vw;
+        top: 21.3vw;
         left: 11.5vw;
     }
     /*
@@ -358,15 +357,15 @@ body {
     }
     */
     .branch div.col-4:nth-child(2) .row div.col:nth-child(1) h6 {
-        top: 25.1vw;
+        top: 27.3vw;
         left: -3vw;
     }
     .branch div.col-4:nth-child(2) .row div.col:nth-child(2) h6 {
-        top: 25.1vw;
+        top: 27.3vw;
         left: 11vw;
     }
     .branch div.col-4:nth-child(2) .row div.col:nth-child(3) h6 {
-        top: 44vw;
+        top: 47.5vw;
         left: -14vw;
     }
     .branch div.col-4 p {
@@ -389,15 +388,15 @@ body {
     }
     **/
     .branch div.col-4:nth-child(2) .row div.col:nth-child(1) p {
-        top: 29vw;
+        top: 31vw;
         left: -6vw;
     }
     .branch div.col-4:nth-child(2) .row div.col:nth-child(2) p {
-        top: 29vw;
+        top: 31vw;
         left: 8.4vw;
     }
     .branch div.col-4:nth-child(2) .row div.col:nth-child(3) p {
-        top: 48vw;
+        top: 51vw;
         left: -17vw;
     }
    
