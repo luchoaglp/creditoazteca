@@ -182,12 +182,14 @@ body {
     letter-spacing: .06em;
 }
 .branch {
-    position: relative;
+    /*position: relative;*/
+    /*
     background: url(../img/branch.png) no-repeat center center; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    */
 }
 .branch div {
     position: relative;
@@ -592,6 +594,12 @@ body {
         left: 1.6vw;
     }
     .branch {
+        background: url(../img/branch.png) no-repeat center center; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        min-height: 66vw;
         min-height: 29vw;
     }
     .branch div.col-12 h4 {
@@ -625,16 +633,21 @@ body {
         top: 16.3vw;
         left: 7.9vw;
     }
+    /*
     .branch div.col-4:nth-child(2) .row div.col h6 {
         top: 19.5vw;
     }
+    */
     .branch div.col-4:nth-child(2) .row div.col:nth-child(1) h6 {
+        top: 19.5vw;
         left: .1vw;
     }
     .branch div.col-4:nth-child(2) .row div.col:nth-child(2) h6 {
+        top: 19.5vw;
         left: 1.5vw;
     }
     .branch div.col-4:nth-child(2) .row div.col:nth-child(3) h6 {
+        top: 19.5vw;
         left: 2.7vw;
     }
     .branch div.col-4 p {
@@ -650,16 +663,21 @@ body {
         top: 18vw;
         left: 6.7vw;
     }
+    /*
     .branch div.col-4:nth-child(2) .row div.col p {
         top: 21vw;
     }
+    */
     .branch div.col-4:nth-child(2) .row div.col:nth-child(1) p {
+        top: 21vw;
         left: -1.1vw;
     }
     .branch div.col-4:nth-child(2) .row div.col:nth-child(2) p {
+        top: 21vw;
         left: .4vw;
     }
     .branch div.col-4:nth-child(2) .row div.col:nth-child(3) p {
+        top: 21vw;
         left: 1.9vw;
     }
    
@@ -778,16 +796,21 @@ body {
         top: 12.05vw;
         left: 1.4vw;
     }
+    /*
     .branch div.col-4:nth-child(2) .row div.col h6 {
         top: 14.4vw;
     }
+    */
     .branch div.col-4:nth-child(2) .row div.col:nth-child(1) h6 {
+        top: 14.4vw;
         left: 4.6vw;
     }
     .branch div.col-4:nth-child(2) .row div.col:nth-child(2) h6 {
+        top: 14.4vw;
         left: 2.5vw;
     }
     .branch div.col-4:nth-child(2) .row div.col:nth-child(3) h6 {
+        top: 14.4vw;
         left: .6vw;
     }
     /*
@@ -809,16 +832,21 @@ body {
         top: 13.1vw;
         left: .4vw;
     }
+    /*
     .branch div.col-4:nth-child(2) .row div.col p {
         top: 15.45vw;
     }
+    */
     .branch div.col-4:nth-child(2) .row div.col:nth-child(1) p {
+        top: 15.45vw;
         left: 3.6vw;
     }
     .branch div.col-4:nth-child(2) .row div.col:nth-child(2) p {
+        top: 15.45vw;
         left: 1.7vw;
     }
     .branch div.col-4:nth-child(2) .row div.col:nth-child(3) p {
+        top: 15.45vw;
         left: -.1vw;
     }
 
@@ -940,16 +968,21 @@ body {
         top: 12.05vw;
         left: 1.5vw;
     }
+    /*
     .branch div.col-4:nth-child(2) .row div.col h6 {
         top: 14.4vw;
     }
+    */
     .branch div.col-4:nth-child(2) .row div.col:nth-child(1) h6 {
+        top: 14.4vw;
         left: 4.6vw;
     }
     .branch div.col-4:nth-child(2) .row div.col:nth-child(2) h6 {
+        top: 14.4vw;
         left: 2.5vw;
     }
     .branch div.col-4:nth-child(2) .row div.col:nth-child(3) h6 {
+        top: 14.4vw;
         left: .6vw;
     }
     /*
@@ -971,16 +1004,21 @@ body {
         top: 13.1vw;
         left: .4vw;
     }
+    /*
     .branch div.col-4:nth-child(2) .row div.col p {
         top: 15.45vw;
     }
+    */
     .branch div.col-4:nth-child(2) .row div.col:nth-child(1) p {
+        top: 15.45vw;
         left: 3.6vw;
     }
     .branch div.col-4:nth-child(2) .row div.col:nth-child(2) p {
+        top: 15.45vw;
         left: 1.7vw;
     }
     .branch div.col-4:nth-child(2) .row div.col:nth-child(3) p {
+        top: 15.45vw;
         left: -.1vw;
     }
     
