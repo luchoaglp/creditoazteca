@@ -217,8 +217,10 @@ body {
 }
 .branch div.col-4 p {
     position: absolute;
-    color: #696b6a;
+    color: #494b48;
+    /*font-weight: 600;*/
     letter-spacing: .06em;
+    text-align: left;
 }
 
 @media only screen and (max-width: 599px) {
@@ -267,7 +269,7 @@ body {
         right: 14.6vw;
     }
     .about {
-        position: relative;
+        /*position: relative;*/
         background: url(../img/about-sm.png) no-repeat center center; 
         -webkit-background-size: cover;
         -moz-background-size: cover;
@@ -311,7 +313,12 @@ body {
         left: 3.2vw;
     }
     .branch {
-        min-height: 34.5vw;
+        background: url(../img/branch-sm.png) no-repeat center center; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        min-height: 70vw;
     }
     .branch div.col-12 h4 {
         font-size: 2.75vw;
@@ -332,30 +339,7 @@ body {
         top: 17.1vw;
         left: 15.5vw;
     }
-    .branch div.col-4 h6 {
-        font-size: 1.4vw;
-    }
-    .branch div.col-4:nth-child(1) h6 {
-        top: 21.3vw;
-        left: 6vw
-    }
-    .branch div.col-4:nth-child(2) .row {
-        top: 25.5vw;
-        left: -2.1vw
-    }
-    .branch div.col-4:nth-child(2) .row div.col:nth-child(1) {
-        left: -5vw;
-    }
-    .branch div.col-4:nth-child(2) .row div.col:nth-child(3) {
-        padding-right: 0;
-        padding-left: 0;
-        left: 6.6vw;
-        min-width: 10vw;
-    }
-    .branch div.col-4:nth-child(3) h6 {
-        top: 21.3vw;
-        left: 15.3vw;
-    }
+   
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -440,48 +424,77 @@ body {
         left: 3.3vw;
     }
     .branch {
-        min-height: 30vw;
+        min-height: 36vw;
     }
     .branch div.col-12 h4 {
         font-size: 2.5vw;
-        top: 1.6vw;
+        top: 1.7vw;
     }
     .branch div.col-4 h5 {
-        font-size: 1.42vw;
+        font-size: 1.9vw;
     }
     .branch div.col-4:nth-child(1) h5 {
-        top: 15vw;
-        left: 12.1vw;
+        top: 15.3vw;
+        left: 10.27vw;
     }
     .branch div.col-4:nth-child(2) h5 { 
-        top: 18.4vw;
-        left: 13.61vw;
+        top: 19vw;
+        left: 13.85vw;
     }
     .branch div.col-4:nth-child(3) h5 {
-        top: 15vw;
-        left: 11.2vw;
-    }
-    .branch div.col-4 h6 {
-        font-size: 1.23vw;
-    }
-    .branch div.col-4:nth-child(1) h6 {
-        top: 18.5vw;
-        left: 12vw
-    }
-    .branch div.col-4:nth-child(2) .row {
-        top: 22vw;
-        left: -.6vw
-    }
-    .branch div.col-4:nth-child(2) .row div.col:nth-child(1) {
-        left: -3.1vw;
-    }
-    .branch div.col-4:nth-child(2) .row div.col:nth-child(3) {
-        left: 2.9vw;
-    }
-    .branch div.col-4:nth-child(3) h6 {
-        top: 18.5vw;
+        top: 15.3vw;
         left: 11vw;
     }
+
+    .branch div.col-4 h6 {
+        font-size: 1.7vw;
+    }
+    .branch div.col-4:nth-child(1) h6 {
+        top: 18.3vw;
+        left: 10.3vw;
+    }
+    .branch div.col-4:nth-child(3) h6 {
+        top: 18.3vw;
+        left: 7.9vw;
+    }
+    .branch div.col-4:nth-child(2) .row div.col h6 {
+        top: 21.5vw;
+    }
+    .branch div.col-4:nth-child(2) .row div.col:nth-child(1) h6 {
+        left: .1vw;
+    }
+    .branch div.col-4:nth-child(2) .row div.col:nth-child(2) h6 {
+        left: 1.5vw;
+    }
+    .branch div.col-4:nth-child(2) .row div.col:nth-child(3) h6 {
+        left: 2.7vw;
+    }
+    .branch div.col-4 p {
+        font-size: 1.5vw;
+        min-width: 20vw;
+        line-height: 2vw;
+    }
+    .branch div.col-4:nth-child(1) p {
+        top: 21vw;
+        left: 8.3vw;
+    }
+    .branch div.col-4:nth-child(3) p {
+        top: 21vw;
+        left: 6vw;
+    }
+    .branch div.col-4:nth-child(2) .row div.col p {
+        top: 25vw;
+    }
+    .branch div.col-4:nth-child(2) .row div.col:nth-child(1) p {
+        left: -1.1vw;
+    }
+    .branch div.col-4:nth-child(2) .row div.col:nth-child(2) p {
+        left: .4vw;
+    }
+    .branch div.col-4:nth-child(2) .row div.col:nth-child(3) p {
+        left: 1.9vw;
+    }
+  
 }
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
@@ -564,7 +577,7 @@ body {
         left: 1.6vw;
     }
     .branch {
-        min-height: 26.5vw;
+        min-height: 29vw;
     }
     .branch div.col-12 h4 {
         font-size: 1.9vw;
@@ -585,30 +598,56 @@ body {
         top: 13.3vw;
         left: 7.7vw;
     }
+
     .branch div.col-4 h6 {
-        font-size: 1.1vw;
+        font-size: 1.2vw;
     }
     .branch div.col-4:nth-child(1) h6 {
-        top: 16.24vw;
-        left: 16.3vw
-    }
-    .branch div.col-4:nth-child(2) .row {
-        top: 19.45vw;
-        left: 0.3vw
-    }
-    .branch div.col-4:nth-child(2) .row div.col:nth-child(1) {
-        left: -1.4vw;
-    }
-    .branch div.col-4:nth-child(2) .row div.col:nth-child(2) {
-
-    }
-    .branch div.col-4:nth-child(2) .row div.col:nth-child(3) {
-        left: 1.2vw;
+        top: 16.3vw;
+        left: 16.3vw;
     }
     .branch div.col-4:nth-child(3) h6 {
-        top: 16.24vw;
-        left: 7.7vw;
+        top: 16.3vw;
+        left: 7.9vw;
     }
+    .branch div.col-4:nth-child(2) .row div.col h6 {
+        top: 19.5vw;
+    }
+    .branch div.col-4:nth-child(2) .row div.col:nth-child(1) h6 {
+        left: .1vw;
+    }
+    .branch div.col-4:nth-child(2) .row div.col:nth-child(2) h6 {
+        left: 1.5vw;
+    }
+    .branch div.col-4:nth-child(2) .row div.col:nth-child(3) h6 {
+        left: 2.7vw;
+    }
+    .branch div.col-4 p {
+        font-size: 1vw;
+        min-width: 20vw;
+        line-height: 1.4vw;
+    }
+    .branch div.col-4:nth-child(1) p {
+        top: 18vw;
+        left: 15.3vw;
+    }
+    .branch div.col-4:nth-child(3) p {
+        top: 18vw;
+        left: 6.7vw;
+    }
+    .branch div.col-4:nth-child(2) .row div.col p {
+        top: 21vw;
+    }
+    .branch div.col-4:nth-child(2) .row div.col:nth-child(1) p {
+        left: -1.1vw;
+    }
+    .branch div.col-4:nth-child(2) .row div.col:nth-child(2) p {
+        left: .4vw;
+    }
+    .branch div.col-4:nth-child(2) .row div.col:nth-child(3) p {
+        left: 1.9vw;
+    }
+   
 }
   /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
@@ -691,7 +730,7 @@ body {
         left: -6.1vw;
     }
     .branch {
-        min-height: 19.5vw;
+        min-height: 22.3vw;
     }
     .branch div.col-12 h4 {
         font-size: 1.49vw;
@@ -720,20 +759,54 @@ body {
         top: 12.05vw;
         left: 25.3vw;
     }
-    .branch div.col-4:nth-child(2) .row {
-        top: 14.45vw;
-        left: 1.7vw;
-    }
-    .branch div.col-4:nth-child(2) .row div.col:nth-child(1) {
-        left: 1.9vw;
-    }
-    .branch div.col-4:nth-child(2) .row div.col:nth-child(3) {
-        left: -1.9vw;
-    }
     .branch div.col-4:nth-child(3) h6 {
         top: 12.05vw;
-        left: 1.31vw;
+        left: 1.4vw;
     }
+    .branch div.col-4:nth-child(2) .row div.col h6 {
+        top: 14.4vw;
+    }
+    .branch div.col-4:nth-child(2) .row div.col:nth-child(1) h6 {
+        left: 4.6vw;
+    }
+    .branch div.col-4:nth-child(2) .row div.col:nth-child(2) h6 {
+        left: 2.5vw;
+    }
+    .branch div.col-4:nth-child(2) .row div.col:nth-child(3) h6 {
+        left: .6vw;
+    }
+    /*
+    .branch div.col-4 img {
+        vertical-align: top;
+        width: .8vw;
+    }
+    */
+    .branch div.col-4 p {
+        font-size: .751vw;
+        min-width: 20vw;
+        line-height: 1.1vw;
+    }
+    .branch div.col-4:nth-child(1) p {
+        top: 13.1vw;
+        left: 24.3vw;
+    }
+    .branch div.col-4:nth-child(3) p {
+        top: 13.1vw;
+        left: .4vw;
+    }
+    .branch div.col-4:nth-child(2) .row div.col p {
+        top: 15.45vw;
+    }
+    .branch div.col-4:nth-child(2) .row div.col:nth-child(1) p {
+        left: 3.6vw;
+    }
+    .branch div.col-4:nth-child(2) .row div.col:nth-child(2) p {
+        left: 1.7vw;
+    }
+    .branch div.col-4:nth-child(2) .row div.col:nth-child(3) p {
+        left: -.1vw;
+    }
+
 }
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
@@ -819,11 +892,11 @@ body {
         left: -5.5vw;
     }
     .branch {
-        min-height: 19.5vw;
+        min-height: 22.3vw;
     }
     .branch div.col-12 h4 {
         font-size: 1.49vw;
-        top: 1.15vw;
+        top: 1.13vw;
     }
     .branch div.col-4 h5 {
         font-size: .94vw;
@@ -840,6 +913,7 @@ body {
         top: 9.72vw;
         left: 1.5vw;
     }
+
     .branch div.col-4 h6 {
         font-size: .77vw;
     }
@@ -847,18 +921,52 @@ body {
         top: 12.05vw;
         left: 25.3vw;
     }
-    .branch div.col-4:nth-child(2) .row {
-        top: 14.45vw;
-        left: 1.7vw;
-    }
-    .branch div.col-4:nth-child(2) .row div.col:nth-child(1) {
-        left: 1.9vw;
-    }
-    .branch div.col-4:nth-child(2) .row div.col:nth-child(3) {
-        left: -1.9vw;
-    }
     .branch div.col-4:nth-child(3) h6 {
         top: 12.05vw;
-        left: 1.31vw;
+        left: 1.5vw;
     }
+    .branch div.col-4:nth-child(2) .row div.col h6 {
+        top: 14.4vw;
+    }
+    .branch div.col-4:nth-child(2) .row div.col:nth-child(1) h6 {
+        left: 4.6vw;
+    }
+    .branch div.col-4:nth-child(2) .row div.col:nth-child(2) h6 {
+        left: 2.5vw;
+    }
+    .branch div.col-4:nth-child(2) .row div.col:nth-child(3) h6 {
+        left: .6vw;
+    }
+    /*
+    .branch div.col-4 img {
+        vertical-align: top;
+        width: .8vw;
+    }
+    */
+    .branch div.col-4 p {
+        font-size: .751vw;
+        min-width: 20vw;
+        line-height: 1.1vw;
+    }
+    .branch div.col-4:nth-child(1) p {
+        top: 13.1vw;
+        left: 24.3vw;
+    }
+    .branch div.col-4:nth-child(3) p {
+        top: 13.1vw;
+        left: .4vw;
+    }
+    .branch div.col-4:nth-child(2) .row div.col p {
+        top: 15.45vw;
+    }
+    .branch div.col-4:nth-child(2) .row div.col:nth-child(1) p {
+        left: 3.6vw;
+    }
+    .branch div.col-4:nth-child(2) .row div.col:nth-child(2) p {
+        left: 1.7vw;
+    }
+    .branch div.col-4:nth-child(2) .row div.col:nth-child(3) p {
+        left: -.1vw;
+    }
+    
 }
