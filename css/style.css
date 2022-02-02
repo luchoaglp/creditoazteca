@@ -215,12 +215,11 @@ body {
     color: #4a4c48;
     font-weight: bold;
     letter-spacing: .06em;
-    text-shadow: 0px 1px 1px #000;
+    /*text-shadow: 0px 1px 1px #000;*/
 }
 .branch div.col-4 p {
     position: absolute;
     color: #494b48;
-    /*font-weight: 600;*/
     letter-spacing: .06em;
     text-align: left;
 }
@@ -244,7 +243,7 @@ body {
         font-size: 1.03rem;
     }
     .banner p {
-        font-size: .7em;
+        font-size: .75em;
     }
     .loans {
         max-width: 100%;
@@ -261,14 +260,14 @@ body {
     }
     .loans div.col-4:nth-child(1) h6 {
         top: 2.9vw;
-        left: 15.2vw;
+        left: 15.8vw;
     }
     .loans div.col-4:nth-child(2) h6 {
         top: 2.9vw;
     }
     .loans div.col-4:nth-child(3) h6 {
         top: 2.9vw;
-        right: 14.6vw;
+        right: 14.9vw;
     }
     .about {
         /*position: relative;*/
@@ -320,18 +319,18 @@ body {
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
-        min-height: 66vw;
+        min-height: 68.5vw;
     }
     .branch div.col-12 h4 {
         font-size: 2.5vw;
-        top: 1.3vw;
+        top: 1.5vw;
     }
     .branch div.col-4 h5 {
-        font-size: 1.9vw;
+        font-size: 2.5vw;
     }
     .branch div.col-4:nth-child(1) h5 {
         top: 15.3vw;
-        left: 9vw;
+        left: 7vw;
     }
     .branch div.col-4:nth-child(2) h5 { 
         top: 19vw;
@@ -343,15 +342,15 @@ body {
     }
 
     .branch div.col-4 h6 {
-        font-size: 1.7vw;
+        font-size: 2.5vw;
     }
     .branch div.col-4:nth-child(1) h6 {
-        top: 19.5vw;
-        left: 9.1vw;
+        top: 21vw;
+        left: 7vw;
     }
     .branch div.col-4:nth-child(3) h6 {
-        top: 19.5vw;
-        left: 12vw;
+        top: 21vw;
+        left: 11.5vw;
     }
     /*
     .branch div.col-4:nth-child(2) .row div.col h6 {
@@ -359,29 +358,30 @@ body {
     }
     */
     .branch div.col-4:nth-child(2) .row div.col:nth-child(1) h6 {
-        top: 23vw;
-        left: 2vw;
+        top: 25.1vw;
+        left: -3vw;
     }
     .branch div.col-4:nth-child(2) .row div.col:nth-child(2) h6 {
-        top: 23vw;
-        left: 10.2vw;
+        top: 25.1vw;
+        left: 11vw;
     }
     .branch div.col-4:nth-child(2) .row div.col:nth-child(3) h6 {
-        top: 40vw;
-        left: -10vw;
+        top: 44vw;
+        left: -14vw;
     }
     .branch div.col-4 p {
-        font-size: 1.5vw;
-        min-width: 20vw;
-        line-height: 2vw;
+        font-size: 2.2vw;
+        min-width: 25vw;
+        line-height: 3vw;
+        letter-spacing: .05vw;
     }
     .branch div.col-4:nth-child(1) p {
-        top: 22vw;
-        left: 7.3vw;
+        top: 25vw;
+        left: 4vw;
     }
     .branch div.col-4:nth-child(3) p {
-        top: 22vw;
-        left: 10vw;
+        top: 25vw;
+        left: 8.5vw;
     }
     /*
     .branch div.col-4:nth-child(2) .row div.col p {
@@ -389,16 +389,16 @@ body {
     }
     **/
     .branch div.col-4:nth-child(2) .row div.col:nth-child(1) p {
-        top: 25.5vw;
-        left: 0vw;
+        top: 29vw;
+        left: -6vw;
     }
     .branch div.col-4:nth-child(2) .row div.col:nth-child(2) p {
-        top: 25.5vw;
+        top: 29vw;
         left: 8.4vw;
     }
     .branch div.col-4:nth-child(2) .row div.col:nth-child(3) p {
-        top: 43vw;
-        left: -12.1vw;
+        top: 48vw;
+        left: -17vw;
     }
    
 }
