@@ -320,26 +320,85 @@ body {
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
-        min-height: 70vw;
+        min-height: 66vw;
     }
     .branch div.col-12 h4 {
-        font-size: 2.75vw;
-        top: 2vw;
+        font-size: 2.5vw;
+        top: 1.3vw;
     }
     .branch div.col-4 h5 {
-        font-size: 1.6vw;
+        font-size: 1.9vw;
     }
     .branch div.col-4:nth-child(1) h5 {
-        top: 17.1vw;
-        left: 6.1vw
+        top: 15.3vw;
+        left: 9vw;
     }
     .branch div.col-4:nth-child(2) h5 { 
-        top: 21vw;
-        left: 13vw;
+        top: 19vw;
+        left: 12.5vw;
     }
     .branch div.col-4:nth-child(3) h5 {
-        top: 17.1vw;
-        left: 15.5vw;
+        top: 15.3vw;
+        left: 12vw;
+    }
+
+    .branch div.col-4 h6 {
+        font-size: 1.7vw;
+    }
+    .branch div.col-4:nth-child(1) h6 {
+        top: 19.5vw;
+        left: 9.1vw;
+    }
+    .branch div.col-4:nth-child(3) h6 {
+        top: 19.5vw;
+        left: 12vw;
+    }
+    /*
+    .branch div.col-4:nth-child(2) .row div.col h6 {
+        top: 23vw;
+    }
+    */
+    .branch div.col-4:nth-child(2) .row div.col:nth-child(1) h6 {
+        top: 23vw;
+        left: 2vw;
+    }
+    .branch div.col-4:nth-child(2) .row div.col:nth-child(2) h6 {
+        top: 23vw;
+        left: 10.2vw;
+    }
+    .branch div.col-4:nth-child(2) .row div.col:nth-child(3) h6 {
+        top: 40vw;
+        left: -10vw;
+    }
+    .branch div.col-4 p {
+        font-size: 1.5vw;
+        min-width: 20vw;
+        line-height: 2vw;
+    }
+    .branch div.col-4:nth-child(1) p {
+        top: 22vw;
+        left: 7.3vw;
+    }
+    .branch div.col-4:nth-child(3) p {
+        top: 22vw;
+        left: 10vw;
+    }
+    /*
+    .branch div.col-4:nth-child(2) .row div.col p {
+        top: 25vw;
+    }
+    **/
+    .branch div.col-4:nth-child(2) .row div.col:nth-child(1) p {
+        top: 25.5vw;
+        left: 0vw;
+    }
+    .branch div.col-4:nth-child(2) .row div.col:nth-child(2) p {
+        top: 25.5vw;
+        left: 8.4vw;
+    }
+    .branch div.col-4:nth-child(2) .row div.col:nth-child(3) p {
+        top: 43vw;
+        left: -12.1vw;
     }
    
 }
@@ -599,7 +658,6 @@ body {
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
-        min-height: 66vw;
         min-height: 29vw;
     }
     .branch div.col-12 h4 {
