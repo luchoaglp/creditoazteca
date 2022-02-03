@@ -241,6 +241,21 @@ body {
 .contact input[type=text]::placeholder, .contact input[type=email]::placeholder, .contact textarea::placeholder {
     color: #a39e9c;
 }
+.contact button {
+    border: none;
+    background-color: #1c1f1b;
+    color: #a39e9c;
+    float: right;
+}
+.contact button:hover {
+    box-shadow:  0 0 0.25rem #a39e9c; 
+    border-color: 1px solid #a39e9c;
+    background-color: #1c1f1b;
+    opacity: .9;
+}
+.contact button i {
+    color: white;
+}
 @media only screen and (max-width: 599px) {
 
     .top {
@@ -428,6 +443,10 @@ body {
     .contact .row:nth-child(3) textarea {
         margin-top: .9vw;
     }
+    .contact .row:nth-child(4) button {
+        font-size: 2.5vw;
+        margin-top: 1vw;
+    }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -614,6 +633,10 @@ body {
     .contact .row:nth-child(3) textarea {
         margin-top: .7vw;
     }
+    .contact .row:nth-child(4) button {
+        font-size: 1.8vw;
+        margin-top: .6vw;
+    }
 }
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
@@ -798,6 +821,10 @@ body {
     }
     .contact .row:nth-child(3) textarea {
         margin-top: .7vw;
+    }
+    .contact .row:nth-child(4) button {
+        font-size: 1.5vw;
+        margin-top: .6vw;
     }
 }
   /* Large devices (laptops/desktops, 992px and up) */
@@ -984,7 +1011,10 @@ body {
     .contact .row:nth-child(3) textarea {
         margin-top: .7vw;
     }
-
+    .contact .row:nth-child(4) button {
+        font-size: 1.1vw;
+        margin-top: .4vw;
+    }
 }
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
@@ -1167,6 +1197,10 @@ body {
     }
     .contact .row:nth-child(3) textarea {
         margin-top: .7vw;
+    }
+    .contact .row:nth-child(4) button {
+        font-size: 1.1vw;
+        margin-top: .4vw;
     }
     
 }
