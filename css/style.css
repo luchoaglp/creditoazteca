@@ -346,7 +346,7 @@ body {
     }
     .branch div.col-4:nth-child(1) h5 {
         top: 15.3vw;
-        left: 6vw;
+        left: 6.5vw;
     }
     .branch div.col-4:nth-child(2) h5 { 
         top: 19vw;
@@ -361,8 +361,8 @@ body {
         font-size: 2.5vw;
     }
     .branch div.col-4:nth-child(1) h6 {
-        top: 21.3vw;
-        left: 6vw;
+        top: 21.5vw;
+        left: 6.5vw;
     }
     .branch div.col-4:nth-child(3) h6 {
         top: 21.3vw;
@@ -388,7 +388,7 @@ body {
     }
     .branch div.col-4:nth-child(1) p {
         top: 25vw;
-        left: 3vw;
+        left: 4vw;
     }
     .branch div.col-4:nth-child(3) p {
         top: 25vw;
