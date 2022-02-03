@@ -211,6 +211,7 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    background-color: #4d4d4d;
 }
 .contact div.col-12 h4 {
     position: absolute;
