@@ -149,16 +149,6 @@ body {
 .loans div.col-4:nth-child(3) h6 {
     text-align: left;
 }
-.about {
-    /*position: relative;*/
-    /*
-    background: url(../img/about.png) no-repeat center center; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    */
-}
 .about div {
     position: relative;
 }
@@ -233,6 +223,24 @@ body {
     margin-right: auto;
 }
 
+.contact input[type=text], .contact input[type=email], .contact textarea {
+    display: table;
+    margin: 0 auto;
+    border-radius: 0;
+    border: none;
+    background-color: #1c1f1b;
+    font-weight: bold;
+    color: white;
+}
+.contact input[type=text]:focus, .contact input[type=email]:focus, .contact textarea:focus {
+    box-shadow:  0 0 0.25rem #a39e9c; 
+    border-color: 1px solid #a39e9c;
+    background-color: #1c1f1b;
+    opacity: .9;
+}
+.contact input[type=text]::placeholder, .contact input[type=email]::placeholder, .contact textarea::placeholder {
+    color: #a39e9c;
+}
 @media only screen and (max-width: 599px) {
 
     .top {
@@ -399,11 +407,26 @@ body {
         left: -17vw;
     }
     .contact {
-        min-height: 48.5vw;
+        min-height: 65vw;
     }
     .contact div.col-12 h4 {
         font-size: 2.75vw;
         top: 3.7vw;
+    }
+    .contact input[type=text], .contact input[type=email], .contact textarea {
+        font-size: 2vw;
+    }
+    .contact .row:nth-child(1) input[type=text] {
+        margin-top: 9.5vw;
+    }
+    .contact .row:nth-child(2) input[type=email] {
+        margin-top: .9vw;
+    }
+    .contact .row:nth-child(2) input[type=text] {
+        margin-top: .9vw;
+    }
+    .contact .row:nth-child(3) textarea {
+        margin-top: .9vw;
     }
 }
 
@@ -570,11 +593,26 @@ body {
         left: -12.1vw;
     }
     .contact {
-        min-height: 48.5vw;
+        min-height: 52vw;
     }
     .contact div.col-12 h4 {
         font-size: 2.5vw;
         top: 3.7vw;
+    }
+    .contact input[type=text], .contact input[type=email], .contact textarea {
+        font-size: 1.75vw;
+    }
+    .contact .row:nth-child(1) input[type=text] {
+        margin-top: 9vw;
+    }
+    .contact .row:nth-child(2) input[type=email] {
+        margin-top: .7vw;
+    }
+    .contact .row:nth-child(2) input[type=text] {
+        margin-top: .7vw;
+    }
+    .contact .row:nth-child(3) textarea {
+        margin-top: .7vw;
     }
 }
 /* Medium devices (landscape tablets, 768px and up) */
@@ -740,6 +778,27 @@ body {
         font-size: 1.9vw;
         top: 2.7vw;
     }
+    .contact input[type=text], .contact input[type=email], .contact textarea {
+        font-size: 1.5vw;
+    }
+    .contact .row:nth-child(2) .col-md-4:nth-child(1) {
+        padding-right: .35vw;
+    }
+    .contact .row:nth-child(2) .col-md-4:nth-child(2) {
+        padding-left: .35vw;
+    }
+    .contact .row:nth-child(1) input[type=text] {
+        margin-top: 7vw;
+    }
+    .contact .row:nth-child(2) input[type=email] {
+        margin-top: .7vw;
+    }
+    .contact .row:nth-child(2) input[type=text] {
+        margin-top: .7vw;
+    }
+    .contact .row:nth-child(3) textarea {
+        margin-top: .7vw;
+    }
 }
   /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
@@ -904,6 +963,27 @@ body {
         font-size: 1.49vw;
         top: 2vw;
     }
+    .contact input[type=text], .contact input[type=email], .contact textarea {
+        font-size: 1vw;
+    }
+    .contact .row:nth-child(2) .col-md-4:nth-child(1) {
+        padding-right: .35vw;
+    }
+    .contact .row:nth-child(2) .col-md-4:nth-child(2) {
+        padding-left: .35vw;
+    }
+    .contact .row:nth-child(1) input[type=text] {
+        margin-top: 6vw;
+    }
+    .contact .row:nth-child(2) input[type=email] {
+        margin-top: .7vw;
+    }
+    .contact .row:nth-child(2) input[type=text] {
+        margin-top: .7vw;
+    }
+    .contact .row:nth-child(3) textarea {
+        margin-top: .7vw;
+    }
 
 }
 /* Extra large devices (large laptops and desktops, 1200px and up) */
@@ -1066,6 +1146,27 @@ body {
     .contact div.col-12 h4 {
         font-size: 1.49vw;
         top: 2vw;
+    }
+    .contact input[type=text], .contact input[type=email], .contact textarea {
+        font-size: 1vw;
+    }
+    .contact .row:nth-child(2) .col-md-4:nth-child(1) {
+        padding-right: .35vw;
+    }
+    .contact .row:nth-child(2) .col-md-4:nth-child(2) {
+        padding-left: .35vw;
+    }
+    .contact .row:nth-child(1) input[type=text] {
+        margin-top: 6vw;
+    }
+    .contact .row:nth-child(2) input[type=email] {
+        margin-top: .7vw;
+    }
+    .contact .row:nth-child(2) input[type=text] {
+        margin-top: .7vw;
+    }
+    .contact .row:nth-child(3) textarea {
+        margin-top: .7vw;
     }
     
 }
