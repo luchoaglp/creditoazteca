@@ -288,12 +288,13 @@ body {
     opacity: .7;
 }
 .current-promotions {
-    background: url(../img/promociones-vigentes.png) no-repeat center center; 
+    background: url(../img/current-promotions.png) no-repeat center center; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     z-index: -1;
+    position: relative;
 }
 .current-promotions h1 {
     position: absolute;
@@ -512,6 +513,27 @@ body {
         font-size: 1.75vw;
         vertical-align: text-bottom;
     }
+    .nav-md-page img {
+        margin-top: 2.5vw;
+        max-width: 30vw;
+    }
+    .current-promotions {
+        background: url(../img/current-promotions-sm.png) no-repeat center center; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        min-height: 30vw;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .current-promotions h1 {
+        top: 15vw;
+        left: 22vw;
+        font-size: 6.2vw;
+        line-height: 6.75vw;
+        letter-spacing: .7vh;
+    }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -722,6 +744,22 @@ body {
     .footer ul li:nth-child(2), .footer ul li:nth-child(3), .footer ul li:nth-child(4) {
         font-size: 1.5vw;
         vertical-align: text-bottom;
+    }
+    .nav-md-page img {
+        margin-top: 3vw;
+        max-width: 25vw;
+    }
+    .current-promotions {
+        margin-top: 6vw;
+        min-height: 16vw;
+        margin-left: -5.5vw;
+    }
+    .current-promotions h1 {
+        top: 7.9vw;
+        left: 17.8vw;
+        font-size: 3.5vw;
+        line-height: 3.5vw;
+        letter-spacing: .7vh;
     }
 }
 /* Medium devices (landscape tablets, 768px and up) */
@@ -934,6 +972,22 @@ body {
         font-size: .9vw;
         vertical-align: text-bottom;
     }
+    .nav-md-page img {
+        margin-top: 3.5vw;
+        max-width: 20vw;
+    }
+    .current-promotions {
+        margin-top: 6vw;
+        min-height: 16vw;
+        margin-left: -5.5vw;
+    }
+    .current-promotions h1 {
+        top: 7.9vw;
+        left: 17.8vw;
+        font-size: 3.5vw;
+        line-height: 3.5vw;
+        letter-spacing: .7vh;
+    }
 }
   /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
@@ -1139,6 +1193,22 @@ body {
     .footer ul li:nth-child(2), .footer ul li:nth-child(3), .footer ul li:nth-child(4) {
         font-size: .85vw;
         vertical-align: text-bottom;
+    }
+    .nav-md-page img {
+        margin-top: 4.3vw;
+        max-width: 16.5vw;
+    }
+    .current-promotions {
+        margin-top: 6vw;
+        min-height: 15vw;
+        margin-left: 0;
+    }
+    .current-promotions h1 {
+        top: 7.9vw;
+        left: 17.8vw;
+        font-size: 3.5vw;
+        line-height: 3.5vw;
+        letter-spacing: .7vh;
     }
 }
 /* Extra large devices (large laptops and desktops, 1200px and up) */
@@ -1357,6 +1427,13 @@ body {
         margin-top: 6vw;
         min-height: 15vw;
         
+    }
+    .current-promotions h1 {
+        top: 7.9vw;
+        left: 17.8vw;
+        font-size: 3.5vw;
+        line-height: 3.5vw;
+        letter-spacing: .7vh;
     }
    
 }
