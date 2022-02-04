@@ -66,6 +66,16 @@ body {
     min-height: 15vw;
     z-index: 999;
 }
+.nav-md-page {
+    margin-top: -1vw;
+    background: url(../img/header-page.png) no-repeat center center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 16vw;
+    z-index: 999;
+}
 
 .nav-md ul {
     vertical-align: middle;
@@ -126,6 +136,9 @@ body {
 .loans {
     position: relative;
     margin-top: -10vw;
+}
+.loans a:hover {
+    opacity: .9;
 }
 .loans h6 {
     position: absolute;
@@ -273,6 +286,19 @@ body {
 }
 .footer ul li a:hover {
     opacity: .7;
+}
+.current-promotions {
+    background: url(../img/promociones-vigentes.png) no-repeat center center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    z-index: -1;
+}
+.current-promotions h1 {
+    position: absolute;
+    color: black;
+    font-weight: bold;
 }
 @media only screen and (max-width: 599px) {
 
@@ -1323,5 +1349,14 @@ body {
         font-size: .85vw;
         vertical-align: text-bottom;
     }
-    
+    .nav-md-page img {
+        margin-top: 4.3vw;
+        max-width: 16.5vw;
+    }
+    .current-promotions {
+        margin-top: 6vw;
+        min-height: 15vw;
+        
+    }
+   
 }
