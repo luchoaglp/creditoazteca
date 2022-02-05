@@ -301,6 +301,22 @@ body {
     color: black;
     font-weight: bold;
 }
+.promotion-container {
+    position: relative;
+    float: right;
+    z-index: -1;
+}
+.promotion {
+    position: absolute;
+}
+.promotion img {
+    position: absolute;
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto;
+    box-shadow: 0 0 15px rgb(0 0 0 / 0.5);
+}
 @media only screen and (max-width: 599px) {
 
     .top {
@@ -529,10 +545,21 @@ body {
     }
     .current-promotions h1 {
         top: 15vw;
-        left: 22vw;
+        left: 20vw;
         font-size: 6.2vw;
         line-height: 6.75vw;
         letter-spacing: .7vh;
+    }
+    .promotion-container {
+        margin-bottom: 110vw;
+    }
+    .promotion {
+        right: 89vw;
+        top: 5vw;
+    }
+    .promotion img {
+        min-height: 110vw;
+        max-height: 110vw;
     }
 }
 
@@ -761,6 +788,17 @@ body {
         line-height: 3.5vw;
         letter-spacing: .7vh;
     }
+    .promotion-container {
+        margin-bottom: 5vw;
+    }
+    .promotion {
+        right: 39vw;
+        top: -20vw;
+    }
+    .promotion img {
+        min-height: 49vw;
+        max-height: 49vw;
+    }
 }
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
@@ -988,6 +1026,17 @@ body {
         line-height: 3.5vw;
         letter-spacing: .7vh;
     }
+    .promotion-container {
+        margin-bottom: 5vw;
+    }
+    .promotion {
+        right: 32.5vw;
+        top: -23vw;
+    }
+    .promotion img {
+        min-height: 42vw;
+        max-height: 42vw;
+    }
 }
   /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
@@ -1091,7 +1140,6 @@ body {
         top: 9.72vw;
         left: 1.5vw;
     }
-
     .branch div.col-4 h6 {
         font-size: .77vw;
     }
@@ -1209,6 +1257,17 @@ body {
         font-size: 3.5vw;
         line-height: 3.5vw;
         letter-spacing: .7vh;
+    }
+    .promotion-container {
+        margin-bottom: 5vw;
+    }
+    .promotion {
+        right: 32.5vw;
+        top: -23vw;
+    }
+    .promotion img {
+        min-height: 42vw;
+        max-height: 42vw;
     }
 }
 /* Extra large devices (large laptops and desktops, 1200px and up) */
@@ -1421,12 +1480,12 @@ body {
     }
     .nav-md-page img {
         margin-top: 4.3vw;
+        min-width: 16.5vw;
         max-width: 16.5vw;
     }
     .current-promotions {
-        margin-top: 6vw;
-        min-height: 15vw;
-        
+        margin-top: 6.3vw;
+        min-height: 15vw;  
     }
     .current-promotions h1 {
         top: 7.9vw;
@@ -1435,5 +1494,15 @@ body {
         line-height: 3.5vw;
         letter-spacing: .7vh;
     }
-   
+    .promotion-container {
+        margin-bottom: 22vw;
+    }
+    .promotion {
+        right: 32.5vw;
+        top: -23vw;
+    }
+    .promotion img {
+        min-height: 42vw;
+        max-height: 42vw;
+    }
 }
