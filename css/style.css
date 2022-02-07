@@ -27,14 +27,14 @@ body {
 .top ul li a:hover {
     opacity: .7;
 }
-.top ul li button {
+.top ul li a.req {
     border: none;
     border-radius: 1em;
     background-color: black;
     color: #ffda00;
     padding: .1em .8em .09em .8em;
 }
-.top ul li button:hover {
+.top ul li a.req:hover {
     opacity: .7;
 }
 .navbar {
@@ -317,6 +317,30 @@ body {
     margin-right: auto;
     box-shadow: 0 0 15px rgb(0 0 0 / 0.5);
 }
+
+.in-branch {
+    background: url(../img/in-branch.png) no-repeat center center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-color: black;
+    z-index: -1;
+    position: relative;
+    color:white;
+}
+.in-branch h1 {
+    font-weight: bold;
+}
+.in-branch ul {
+    list-style-position: inside;
+}
+.in-branch h2 {
+    font-weight: bold;
+}
+.in-branch h2 i {
+    vertical-align: bottom;
+}
 @media only screen and (max-width: 599px) {
 
     .top {
@@ -561,6 +585,29 @@ body {
         min-height: 110vw;
         max-height: 110vw;
     }
+    .in-branch {
+        min-height: 140vw;
+        margin-top: -16vw;
+    }
+    .in-branch h1 {
+        margin-top: 27vw;
+        font-size: 5.5vw;
+        letter-spacing: .4vh;
+        margin-bottom: 8vw;
+    }
+    .in-branch ul li {
+        font-size: 4.8vw;
+        letter-spacing: .4vh;
+        line-height: 6.5vw;
+    }
+    .in-branch h2 {
+        margin-top: 23vw;
+        font-size: 5vw;
+        letter-spacing: .2vh;
+    }
+    .in-branch h2 i {
+        font-size: 6vw;
+    }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -798,6 +845,29 @@ body {
     .promotion img {
         min-height: 49vw;
         max-height: 49vw;
+    }
+    .in-branch {
+        min-height: 104.5vw;
+        margin-top: -14vw;
+    }
+    .in-branch h1 {
+        margin-top: 27vw;
+        font-size: 3.5vw;
+        letter-spacing: .7vh;
+        margin-bottom: 5vw;
+    }
+    .in-branch ul li {
+        font-size: 3.25vw;
+        letter-spacing: .6vh;
+        line-height: 5.5vw;
+    }
+    .in-branch h2 {
+        margin-top: 23vw;
+        font-size: 3.5vw;
+        letter-spacing: .7vh;
+    }
+    .in-branch h2 i {
+        font-size: 4vw;
     }
 }
 /* Medium devices (landscape tablets, 768px and up) */
@@ -1037,6 +1107,29 @@ body {
         min-height: 42vw;
         max-height: 42vw;
     }
+    .in-branch {
+        min-height: 81vw;
+        margin-top: -13vw;
+    }
+    .in-branch h1 {
+        margin-top: 21vw;
+        font-size: 3vw;
+        letter-spacing: .7vh;
+        margin-bottom: 5vw;
+    }
+    .in-branch ul li {
+        font-size: 2.8vw;
+        letter-spacing: .6vh;
+        line-height: 3.9vw;
+    }
+    .in-branch h2 {
+        margin-top: 19vw;
+        font-size: 3vw;
+        letter-spacing: .7vh;
+    }
+    .in-branch h2 i {
+        font-size: 3.75vw;
+    }
 }
   /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
@@ -1268,6 +1361,29 @@ body {
     .promotion img {
         min-height: 42vw;
         max-height: 42vw;
+    }
+    .in-branch {
+        min-height: 61.9vw;
+        margin-top: -13vw;
+    }
+    .in-branch h1 {
+        margin-top: 15vw;
+        font-size: 2.75vw;
+        letter-spacing: .7vh;
+        margin-bottom: 4.75vw;
+    }
+    .in-branch ul li {
+        font-size: 2.65vw;
+        letter-spacing: .6vh;
+        line-height: 3.9vw;
+    }
+    .in-branch h2 {
+        margin-top: 8.2vw;
+        font-size: 2.75vw;
+        letter-spacing: .7vh;
+    }
+    .in-branch h2 i {
+        font-size: 3.25vw;
     }
 }
 /* Extra large devices (large laptops and desktops, 1200px and up) */
@@ -1504,5 +1620,28 @@ body {
     .promotion img {
         min-height: 42vw;
         max-height: 42vw;
+    }
+    .in-branch {
+        min-height: 55vw;
+        margin-top: -13vw;
+    }
+    .in-branch h1 {
+        margin-top: 13vw;
+        font-size: 2.75vw;
+        letter-spacing: .7vh;
+        margin-bottom: 3.75vw;
+    }
+    .in-branch ul li {
+        font-size: 2.65vw;
+        letter-spacing: .6vh;
+        line-height: 3.9vw;
+    }
+    .in-branch h2 {
+        margin-top: 6vw;
+        font-size: 2.75vw;
+        letter-spacing: .7vh;
+    }
+    .in-branch h2 i {
+        font-size: 3.25vw;
     }
 }
