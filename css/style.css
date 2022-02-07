@@ -317,14 +317,15 @@ body {
     margin-right: auto;
     box-shadow: 0 0 15px rgb(0 0 0 / 0.5);
 }
-
+.in-branch-body {
+    background-color: black;
+}
 .in-branch {
     background: url(../img/in-branch.png) no-repeat center center; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    background-color: black;
     z-index: -1;
     position: relative;
     color:white;
@@ -593,20 +594,20 @@ body {
         margin-top: 27vw;
         font-size: 5.5vw;
         letter-spacing: .4vh;
-        margin-bottom: 8vw;
+        margin-bottom: 8.75vw;
     }
     .in-branch ul li {
         font-size: 4.8vw;
         letter-spacing: .4vh;
-        line-height: 6.5vw;
+        line-height: 6.75vw;
     }
     .in-branch h2 {
-        margin-top: 23vw;
+        margin-top: 29vw;
         font-size: 5vw;
-        letter-spacing: .2vh;
+        letter-spacing: .175vh;
     }
     .in-branch h2 i {
-        font-size: 6vw;
+        font-size: 6.25vw;
     }
 }
 
@@ -1637,7 +1638,7 @@ body {
         line-height: 3.9vw;
     }
     .in-branch h2 {
-        margin-top: 6vw;
+        margin-top: 5.5vw;
         font-size: 2.75vw;
         letter-spacing: .7vh;
     }
