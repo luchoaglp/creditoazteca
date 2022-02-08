@@ -358,11 +358,6 @@ body {
 .online h1 {
     font-weight: bold;
 }
-/*
-.online-form .row .col-12 {
-    position: relative;
-}
-*/
 .online-form i {
     position: absolute;
     color: #808080;
@@ -372,9 +367,16 @@ body {
     color: white;
     border: none;
 }
-.online input[type=text]:hover {
-   
-  
+.online-form button {
+    background-color: black;
+    color: #808080;
+    border: none;
+}
+.online-form button i {
+    color: white;
+}
+.online-form button:hover {
+    opacity: .7;
 }
 @media only screen and (max-width: 599px) {
 
@@ -674,6 +676,14 @@ body {
         margin-bottom: 1.5vw;
         padding-left: 5.75vw;
     }
+    .online-form button {
+        font-size: 3vw;
+        border-radius: 3.5vw;
+        padding: .5vw 7vw .5vw 6vw;
+    }
+    .online-form button i {
+        font-size: 2.5vw;        
+    }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -965,6 +975,14 @@ body {
         border-radius: 2vw;
         margin-bottom: 1.5vw;
         padding-left: 4.5vw;
+    }
+    .online-form button {
+        font-size: 1.7vw;
+        border-radius: 2vw;
+        padding: .5vw 3vw .5vw 2vw;
+    }
+    .online-form button i {
+        font-size: 1.7vw;        
     }
 }
 /* Medium devices (landscape tablets, 768px and up) */
@@ -1258,6 +1276,14 @@ body {
         margin-bottom: 1vw;
         padding-left: 3.75vw;
     }
+    .online-form button {
+        font-size: 1.25vw;
+        border-radius: 2vw;
+        padding: .5vw 3vw .5vw 2vw;
+    }
+    .online-form button i {
+        font-size: 1.25vw;        
+    }
 }
   /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
@@ -1543,6 +1569,14 @@ body {
         border-radius: 2vw;
         margin-bottom: .8vw;
         padding-left: 3.75vw;
+    }
+    .online-form button {
+        font-size: 1.25vw;
+        border-radius: 2vw;
+        padding: .5vw 3vw .5vw 2vw;
+    }
+    .online-form button i {
+        font-size: 1.25vw;        
     }
 }
 /* Extra large devices (large laptops and desktops, 1200px and up) */
@@ -1834,6 +1868,14 @@ body {
         border-radius: 2vw;
         margin-bottom: .8vw;
         padding-left: 3.75vw;
+    }
+    .online-form button {
+        font-size: 1.25vw;
+        border-radius: 2vw;
+        padding: .5vw 3vw .5vw 2vw;
+    }
+    .online-form button i {
+        font-size: 1.25vw;        
     }
 
 }
