@@ -358,6 +358,24 @@ body {
 .online h1 {
     font-weight: bold;
 }
+/*
+.online-form .row .col-12 {
+    position: relative;
+}
+*/
+.online-form i {
+    position: absolute;
+    color: #808080;
+}
+.online-form input[type=text], .online-form input[type=email] {
+    background-color: black;
+    color: white;
+    border: none;
+}
+.online input[type=text]:hover {
+   
+  
+}
 @media only screen and (max-width: 599px) {
 
     .top {
@@ -641,6 +659,21 @@ body {
         letter-spacing: .1vh;
         line-height: 4.5vw;
     }
+    .online-form {
+        margin-top: -83vw;
+    }
+    .online-form i {
+        font-size: 4vw;
+        margin-left: 1.3vw;
+        margin-top: 1vw;
+    }
+    .online-form input[type=text], .online-form input[type=email] {
+        min-width: 70vw;
+        font-size: 3.5vw;
+        border-radius: 3vw;
+        margin-bottom: 1.5vw;
+        padding-left: 5.75vw;
+    }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -917,6 +950,21 @@ body {
         font-size: 2.3vw;
         letter-spacing: .2vh;
         line-height: 3.5vw;
+    }
+    .online-form {
+        margin-top: -53vw;
+    }
+    .online-form i {
+        font-size: 3vw;
+        margin-left: 1vw;
+        margin-top: .5vw;
+    }
+    .online-form input[type=text], .online-form input[type=email] {
+        min-width: 50vw;
+        font-size: 2.5vw;
+        border-radius: 2vw;
+        margin-bottom: 1.5vw;
+        padding-left: 4.5vw;
     }
 }
 /* Medium devices (landscape tablets, 768px and up) */
@@ -1195,6 +1243,21 @@ body {
         letter-spacing: .3vh;
         line-height: 2.85vw;
     }
+    .online-form {
+        margin-top: -40vw;
+    }
+    .online-form i {
+        font-size: 2.3vw;
+        margin-left: .9vw;
+        margin-top: .35vw;
+    }
+    .online-form input[type=text], .online-form input[type=email] {
+        min-width: 40vw;
+        font-size: 1.8vw;
+        border-radius: 2vw;
+        margin-bottom: 1vw;
+        padding-left: 3.75vw;
+    }
 }
   /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
@@ -1465,6 +1528,21 @@ body {
         font-size: 1.6vw;
         letter-spacing: .35vh;
         line-height: 2.4vw;
+    }
+    .online-form {
+        margin-top: -20vw;
+    }
+    .online-form i {
+        font-size: 2.3vw;
+        margin-left: .9vw;
+        margin-top: .35vw;
+    }
+    .online-form input[type=text], .online-form input[type=email] {
+        min-width: 40vw;
+        font-size: 1.8vw;
+        border-radius: 2vw;
+        margin-bottom: .8vw;
+        padding-left: 3.75vw;
     }
 }
 /* Extra large devices (large laptops and desktops, 1200px and up) */
@@ -1742,4 +1820,20 @@ body {
         letter-spacing: .35vh;
         line-height: 2.4vw;
     }
+    .online-form {
+        margin-top: -12.6vw;
+    }
+    .online-form i {
+        font-size: 2.3vw;
+        margin-left: .9vw;
+        margin-top: .35vw;
+    }
+    .online-form input[type=text], .online-form input[type=email] {
+        min-width: 40vw;
+        font-size: 1.8vw;
+        border-radius: 2vw;
+        margin-bottom: .8vw;
+        padding-left: 3.75vw;
+    }
+
 }
