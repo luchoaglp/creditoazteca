@@ -321,7 +321,7 @@ body {
     background-color: black;
 }
 .in-branch {
-    background: url(../img/in-branch.png) no-repeat center center fixed; 
+    background: url(../img/in-branch.png) no-repeat center center; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -346,7 +346,7 @@ body {
     background-color: black;
 }
 .online {
-    background: url(../img/online.jpg) no-repeat center center fixed; 
+    background: url(../img/online.jpg) no-repeat center center; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
