@@ -304,22 +304,22 @@ $(function() {
     data.message = $message.val().trim();
 
     if(data.name.length < 1) {
-      $name.addClass('form-invalid').next().text('Obligatorio').css({"color": "red", "margin-bottom": "-9px"});
+      $name.addClass('form-invalid').next().text('Obligatorio').css({"color": "red", "margin-bottom": "-7px"});
       res = false;
     } else {
       $name.removeClass('form-invalid').next().text('').css("margin-bottom", "-1px");
     }
     if(data.email === '') {
-      $email.addClass('form-invalid').next().text('Obligatorio').css({"color": "red", "margin-bottom": "-9px"});
+      $email.addClass('form-invalid').next().text('Obligatorio').css({"color": "red", "margin-bottom": "-7px"});
       res = false;
     } else if(!validateEmail(data.email)) {
-      $email.addClass('form-invalid').next().text('Email invalido').css({"color": "red", "margin-bottom": "-9px"});
+      $email.addClass('form-invalid').next().text('Email invalido').css({"color": "red", "margin-bottom": "-7px"});
       res = false;
     } else {
       $email.removeClass('form-invalid').next().text('').css("margin-bottom", "-1px");
     }
     if(data.phone.length !== 10) {
-      $phone.addClass('form-invalid').next().text('Obligatorio (10 dígitos)').css({"color": "red", "margin-bottom": "-9px"});
+      $phone.addClass('form-invalid').next().text('Obligatorio (10 dígitos)').css({"color": "red", "margin-bottom": "-7px"});
       res = false;
     } else {
       $phone.removeClass('form-invalid').next().text('').css("margin-bottom", "-1px");
