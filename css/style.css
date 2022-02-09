@@ -673,6 +673,11 @@ body {
         font-size: 6.25vw;
     }
     .online {
+        background: url(../img/online-sm.jpg) no-repeat center center; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
         min-height: 148.5vw;
         margin-top: -18vw;
     }
