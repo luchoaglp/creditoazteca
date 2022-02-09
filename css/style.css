@@ -2,6 +2,12 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
 }
+.form-control-info {
+    font-size: .7rem;
+}
+.form-invalid {
+    box-shadow: 0 0 0 0.1rem rgb(255 0 0 / 80%);
+  }
 .top {
     font-weight: bold;
     padding: .5vw 0 .15vw 0;
@@ -76,7 +82,6 @@ body {
     min-height: 16vw;
     z-index: 999;
 }
-
 .nav-md ul {
     vertical-align: middle;
 }
@@ -251,6 +256,7 @@ body {
     border-color: 1px solid #a39e9c;
     background-color: #1c1f1b;
     opacity: .9;
+    color: white;
 }
 .contact input[type=text]::placeholder, .contact input[type=email]::placeholder, .contact textarea::placeholder {
     color: #a39e9c;
@@ -376,6 +382,26 @@ body {
     color: white;
 }
 .online-form button:hover {
+    opacity: .7;
+}
+.jconfirm-box {
+    border-radius: 0 !important;
+    border: 2px solid black;
+}
+.jconfirm-content {
+    text-align: left;
+    font-size: .72rem;
+    padding-top: 14px;
+}
+.jconfirm .jconfirm-box .jconfirm-buttons button.btn-blue {
+    border-radius: 0;
+    background-color: #1c1f1b;
+    color: #808080;
+}
+.jconfirm .jconfirm-box .jconfirm-buttons button.btn-blue:hover {
+    border-radius: 0;
+    background-color: #1c1f1b;
+    color: #808080;
     opacity: .7;
 }
 @media only screen and (max-width: 599px) {
