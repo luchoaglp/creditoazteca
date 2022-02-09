@@ -327,7 +327,7 @@ body {
     background-color: black;
 }
 .in-branch {
-    background: url(../img/in-branch.png) no-repeat center center; 
+    background: url(../img/in-branch.jpg) no-repeat center center; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -650,6 +650,11 @@ body {
         max-height: 110vw;
     }
     .in-branch {
+        background: url(../img/in-branch-sm.jpg) no-repeat center center; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
         min-height: 140vw;
         margin-top: -16vw;
     }
