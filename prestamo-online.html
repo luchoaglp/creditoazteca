@@ -111,16 +111,16 @@ $(function() {
     data.phone = $phone.val().trim();
 
     if(data.email === '') {
-      $email.addClass('form-invalid').next().text('Obligatorio').css({"color": "red", "margin-top": "-10px"});
+      $email.addClass('form-invalid').next().text('Obligatorio').css({"color": "#FF5858", "margin-top": "-10px"});
       res = false;
     } else if(!validateEmail(data.email)) {
-      $email.addClass('form-invalid').next().text('Email invalido').css("color", "red");
+      $email.addClass('form-invalid').next().text('Email invalido').css("color", "#FF5858");
       res = false;
     } else {
       $email.removeClass('form-invalid').next().text('').css("margin-top", "10px");
     }
     if(data.phone.length !== 10) {
-      $phone.addClass('form-invalid').next().text('Obligatorio (10 dígitos)').css({"color": "red", "margin-top": "-10px"});
+      $phone.addClass('form-invalid').next().text('Obligatorio (10 dígitos)').css({"color": "#FF5858", "margin-top": "-10px"});
       res = false;
     } else {
       $phone.removeClass('form-invalid').next().text('').css("margin-top", "10px");
