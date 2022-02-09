@@ -3,11 +3,11 @@ body {
     text-align: center;
 }
 .form-control-info {
-    font-size: .7rem;
+    font-size: 1vw;
 }
 .form-invalid {
     box-shadow: 0 0 0 0.1rem rgb(255 0 0 / 80%);
-  }
+}
 .top {
     font-weight: bold;
     padding: .5vw 0 .15vw 0;
@@ -405,7 +405,9 @@ body {
     opacity: .7;
 }
 @media only screen and (max-width: 599px) {
-
+    .form-control-info {
+        font-size: 2.25vw;
+    }
     .top {
         display: none;
     }
@@ -519,7 +521,6 @@ body {
         top: 15.3vw;
         left: 12vw;
     }
-
     .branch div.col-4 h6 {
         font-size: 2.5vw;
     }
@@ -679,42 +680,44 @@ body {
         margin-top: 27vw;
         font-size: 4vw;
         letter-spacing: .1vh;
-        margin-bottom: 3vw;
+        margin-bottom: 4vw;
         line-height: 6vw;
     }
     .online h3 {
-        font-size: 2.75vw;
+        font-size: 3vw;
         letter-spacing: .1vh;
         line-height: 4.5vw;
     }
     .online-form {
-        margin-top: -83vw;
+        margin-top: -82vw;
     }
     .online-form i {
-        font-size: 4vw;
-        margin-left: 1.3vw;
+        font-size: 6vw;
+        margin-left: 2vw;
         margin-top: 1vw;
     }
     .online-form input[type=text], .online-form input[type=email] {
-        min-width: 70vw;
+        min-width: 75vw;
         font-size: 3.5vw;
-        border-radius: 3vw;
-        margin-bottom: 1.5vw;
-        padding-left: 5.75vw;
+        border-radius: 5vw;
+        margin-bottom: 2vw;
+        padding: 1.25vw 1.25vw 1.25vw 9vw;
     }
     .online-form button {
-        font-size: 3vw;
+        font-size: 4vw;
         border-radius: 3.5vw;
-        padding: .5vw 7vw .5vw 6vw;
+        padding: 1vw 8vw .5vw 6vw;
     }
     .online-form button i {
-        font-size: 2.5vw;        
+        font-size: 3vw; 
     }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
-
+    .form-control-info {
+        font-size: 1.5vw;
+    }
     .top {
         display: none;
     }
@@ -1013,7 +1016,9 @@ body {
 }
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-    
+    .form-control-info {
+        font-size: 1.3vw;
+    }
     .top {
         display: none;
     }
@@ -1313,7 +1318,9 @@ body {
 }
   /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-  
+    .form-control-info {
+        font-size: 1vw;
+    }
     .top {
         display: block;
     }
@@ -1607,7 +1614,9 @@ body {
 }
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
-  
+    .form-control-info {
+        font-size: 1vw;
+    }
     .top {
         display: block;
     }
@@ -1768,6 +1777,7 @@ body {
     }
     .contact input[type=text], .contact input[type=email], .contact textarea {
         font-size: 1vw;
+        padding: .4vw .4vw .4vw .6vw;
     }
     .contact .row:nth-child(2) .col-md-4:nth-child(1) {
         padding-right: .35vw;
@@ -1792,7 +1802,7 @@ body {
         margin-top: .4vw;
     }
     .contact .container {
-        max-width: 187vh;
+        min-width: 187vh;
     }
     .footer {
         min-height: 6.5vw;
@@ -1863,7 +1873,6 @@ body {
     .in-branch h2 i {
         font-size: 3.25vw;
     }
-
     .online {
         min-height: 43vw;
         margin-top: -9vw;
@@ -1884,7 +1893,7 @@ body {
         margin-top: -12.6vw;
     }
     .online-form i {
-        font-size: 2.3vw;
+        font-size: 2.5vw;
         margin-left: .9vw;
         margin-top: .35vw;
     }
@@ -1893,7 +1902,7 @@ body {
         font-size: 1.8vw;
         border-radius: 2vw;
         margin-bottom: .8vw;
-        padding-left: 3.75vw;
+        padding: .2vw .2vw .2vw 3.75vw;
     }
     .online-form button {
         font-size: 1.25vw;
