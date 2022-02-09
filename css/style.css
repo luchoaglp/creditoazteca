@@ -458,19 +458,19 @@ body {
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
-        min-height: 70vw;
+        min-height: 73vw;
     }
     .about div.col-12 h4 {
         font-size: 2.75vw;
         top: 11.75vw;
     }
     .about div.col h5 {
-        font-size: 2.5vw;
+        font-size: 2.75vw;
         line-height: 3vw;
     }
     .about div.col:nth-child(1) h5 {
         top: 34.5vw;
-        left: 8.1vw;
+        left: 6vw;
     }
     .about div.col:nth-child(2) h5 {
         top: 33.5vw;
@@ -478,22 +478,23 @@ body {
     }
     .about div.col:nth-child(3) h5 {
         top: 33.5vw;
-        left: 11vw;
+        left: 11.5vw;
     }
     .about div.col p {
-        font-size: 2.3vw;
+        font-size: 2.6vw;
         line-height: 2.75vw;
         top: 41vw;
-        padding: 0 1em;
+        padding: 0 3.5vw;
+        min-width: 34vw;
     }
     .about div.col:nth-child(1) p {
-        left: -1.5vw;
+        left: -3vw;
     }
     .about div.col:nth-child(2) p {
         left: 2vw;
     }
     .about div.col:nth-child(3) p {
-        left: 3.2vw;
+        left: 3vw;
     }
     .branch {
         background: url(../img/branch-sm.png) no-repeat center center; 
