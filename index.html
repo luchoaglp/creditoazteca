@@ -316,7 +316,7 @@ $(function() {
       $email.addClass('form-invalid').next().text('Obligatorio').css({"color": "red", "margin-bottom": "-7px"});
       res = false;
     } else if(!validateEmail(data.email)) {
-      $email.addClass('form-invalid').next().text('Email invalido').css({"color": "red", "margin-bottom": "-7px"});
+      $email.addClass('form-invalid').next().text('Email inválido').css({"color": "red", "margin-bottom": "-7px"});
       res = false;
     } else {
       $email.removeClass('form-invalid').next().text('').css("margin-bottom", "-1px");
