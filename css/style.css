@@ -549,7 +549,7 @@ body {
     .branch div.col-4 p {
         font-size: 2.3vw;
         min-width: 24vw;
-        line-height: 3vw;
+        line-height: 3.3vw;
         letter-spacing: .04vw;
     }
     .branch div.col-4:nth-child(1) p {
