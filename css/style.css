@@ -481,13 +481,13 @@ body {
         left: 11.5vw;
     }
     .about div.col p {
-        font-size: 2.69vw;
+        font-size: 2.6vw;
         line-height: 3vw;
         top: 41vw;
-        min-width: 27vw;
+        min-width: 26vw;
     }
     .about div.col:nth-child(1) p {
-        padding-left: 2vw;
+        padding-left: 2.5vw;
         left: -2vw;
     }
     .about div.col:nth-child(2) p {
@@ -602,21 +602,21 @@ body {
         max-width: 91vh;
     }
     .footer {
-        min-height: 34vw;
+        min-height: 40vw;
     }
     .footer ul li {
         padding: 1.3vw 0;
     }
     .footer ul li i {
-        font-size: 2vw;
+        font-size: 3vw;
         vertical-align: middle;
     }
     .footer ul li:nth-child(1) {
-        font-size: 2.5vw;
+        font-size: 3vw;
         letter-spacing: .2vw;
     }
     .footer ul li:nth-child(2), .footer ul li:nth-child(3), .footer ul li:nth-child(4) {
-        font-size: 1.75vw;
+        font-size: 2.25vw;
         vertical-align: text-bottom;
     }
     .nav-md-page img {
@@ -840,7 +840,6 @@ body {
         top: 15.3vw;
         left: 12vw;
     }
-
     .branch div.col-4 h6 {
         font-size: 1.7vw;
     }
@@ -919,7 +918,7 @@ body {
         max-width: 105vh;
     }
     .footer {
-        min-height: 25vw;
+        min-height: 30vw;
     }
     .footer ul li {
         padding: 1vw 0;
