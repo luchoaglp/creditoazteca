@@ -231,8 +231,8 @@
       <li><i class="fas fa-map-marker-alt"></i> Casa Central: Junín 1547 - (W3400) Corrientes</li>
       <li><i class="fas fa-phone-volume"></i> Tel: +54 (379) 411 6517</li>
       <li><a href="mailto:administracion@creditoazteca.com"><i class="fas fa-envelope"></i> administracion@creditoazteca.com</a></li>
-      <li><a href="https://www.instagram.com/creditoazteca/" target="_blank"><i class="fab fa-instagram"></i></a></li>
       <li><a href="https://www.facebook.com/Credito-Azteca" target="_blank"><i class="fa-brands fa-facebook-square"></i></a></li>
+      <li><a href="https://www.instagram.com/creditoazteca/" target="_blank"><i class="fab fa-instagram"></i></a></li>
     </ul>
   </div>
 
@@ -266,32 +266,33 @@ $(function() {
     }
 
     $.ajax({
-      url: "./",
+      url: "./inc/email-index.php",
       method: "POST",
       data: formData,
       processData: false,  
       contentType: false  
     }).done(function(res) {
 
-    }).fail(function(jqXHR, textStatus) {
-      console.log(jqXHR, textStatus);
-    });
+      console.log(res);
 
-    $.alert({
-      title: false,
-      content: '<h5 class="text-center text-success"><b>Tu solicitud fue recibida exitosamente.<br>Te contactaremos a la brevedad.</b></h5>',
-      closeIcon: false,
-      buttons: {
-        aceptar: {
-          btnClass: 'btn-blue',
-          action: function() {
-            $name.val('');
-            $phone.val('');
-            $email.val('');
-            $message.val('');
+      $.alert({
+        title: false,
+        content: '<h5 class="text-center text-success"><b>Tu solicitud fue recibida exitosamente.<br>Te contactaremos a la brevedad.</b></h5>',
+        closeIcon: false,
+        buttons: {
+          aceptar: {
+            btnClass: 'btn-blue',
+            action: function() {
+              $name.val('');
+              $phone.val('');
+              $email.val('');
+              $message.val('');
+            }
           }
         }
-      }
+      });
+    }).fail(function(jqXHR, textStatus) {
+      console.log(jqXHR, textStatus);
     });
 
   }

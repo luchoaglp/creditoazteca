@@ -75,30 +75,32 @@ $(function() {
     }
 
     $.ajax({
-      url: "./",
+      url: "./inc/email-prestamo-online.php",
       method: "POST",
       data: formData,
       processData: false,  
       contentType: false  
     }).done(function(res) {
 
-    }).fail(function(jqXHR, textStatus) {
-      console.log(jqXHR, textStatus);
-    });
+      console.log(res);
 
-    $.alert({
-      title: false,
-      content: '<h5 class="text-center text-success"><b>Tu solicitud fue recibida exitosamente.<br>Te contactaremos a la brevedad.</b></h5>',
-      closeIcon: false,
-      buttons: {
-        aceptar: {
-          btnClass: 'btn-blue',
-          action: function() {
-            $phone.val('');
-            $email.val('');
+      $.alert({
+        title: false,
+        content: '<h5 class="text-center text-success"><b>Tu solicitud fue recibida exitosamente.<br>Te contactaremos a la brevedad.</b></h5>',
+        closeIcon: false,
+        buttons: {
+          aceptar: {
+            btnClass: 'btn-blue',
+            action: function() {
+              $phone.val('');
+              $email.val('');
+            }
           }
         }
-      }
+      });
+
+    }).fail(function(jqXHR, textStatus) {
+      console.log(jqXHR, textStatus);
     });
 
   }
@@ -111,16 +113,16 @@ $(function() {
     data.phone = $phone.val().trim();
 
     if(data.email === '') {
-      $email.addClass('form-invalid').next().text('Obligatorio').css({"color": "#FF5858", "margin-top": "-10px"});
+      $email.addClass('form-invalid').next().text('Obligatorio').css({"color": "yellow", "margin-top": "-10px"});
       res = false;
     } else if(!validateEmail(data.email)) {
-      $email.addClass('form-invalid').next().text('Email invalido').css("color", "#FF5858");
+      $email.addClass('form-invalid').next().text('Email invalido').css("color", "yellow");
       res = false;
     } else {
       $email.removeClass('form-invalid').next().text('').css("margin-top", "10px");
     }
     if(data.phone.length !== 10) {
-      $phone.addClass('form-invalid').next().text('Obligatorio (10 dígitos)').css({"color": "#FF5858", "margin-top": "-10px"});
+      $phone.addClass('form-invalid').next().text('Obligatorio (10 dígitos)').css({"color": "yellow", "margin-top": "-10px"});
       res = false;
     } else {
       $phone.removeClass('form-invalid').next().text('').css("margin-top", "10px");
