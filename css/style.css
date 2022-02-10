@@ -573,30 +573,30 @@ body {
         left: -17vw;
     }
     .contact {
-        min-height: 65vw;
+        min-height: 78vw;
     }
     .contact div.col-12 h4 {
         font-size: 2.75vw;
         top: 3.7vw;
     }
     .contact input[type=text], .contact input[type=email], .contact textarea {
-        font-size: 2vw;
+        font-size: 2.5vw;
     }
     .contact .row:nth-child(1) input[type=text] {
         margin-top: 9.5vw;
     }
     .contact .row:nth-child(2) input[type=email] {
-        margin-top: .9vw;
+        margin-top: 1.5vw;
     }
     .contact .row:nth-child(2) input[type=text] {
-        margin-top: .9vw;
+        margin-top: 1.5vw;
     }
     .contact .row:nth-child(3) textarea {
-        margin-top: .9vw;
+        margin-top: 1.5vw;
     }
     .contact .row:nth-child(4) button {
-        font-size: 2.5vw;
-        margin-top: 1vw;
+        font-size: 3vw;
+        margin-top: 1.5vw;
     }
     .contact .container {
         max-width: 91vh;
