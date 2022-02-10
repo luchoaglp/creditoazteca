@@ -481,20 +481,20 @@ body {
         left: 11.5vw;
     }
     .about div.col p {
-        font-size: 2.6vw;
-        line-height: 2.8vw;
-        top: 41vw;
-        padding: 0 3.5vw;
-        min-width: 34vw;
+        font-size: 2.45vw;
+        line-height: 2.7vw;
+        top: 40vw;
+        padding: 0 2vw;
+        min-width: 27vw;
     }
     .about div.col:nth-child(1) p {
-        left: -3vw;
+        left: -2vw;
     }
     .about div.col:nth-child(2) p {
         left: 2vw;
     }
     .about div.col:nth-child(3) p {
-        left: 3vw;
+        left: 6vw;
     }
     .branch {
         background: url(../img/branch-sm.png) no-repeat center center; 
@@ -548,7 +548,7 @@ body {
     }
     .branch div.col-4 p {
         font-size: 2.3vw;
-        min-width: 25vw;
+        min-width: 24vw;
         line-height: 3vw;
         letter-spacing: .04vw;
     }
