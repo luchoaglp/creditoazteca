@@ -685,23 +685,23 @@ body {
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
-        min-height: 148.5vw;
+        min-height: 170vw;
         margin-top: -18vw;
     }
     .online h1 {
         margin-top: 27vw;
         font-size: 4vw;
         letter-spacing: .1vh;
-        margin-bottom: 4vw;
+        margin-bottom: 6vw;
         line-height: 6vw;
     }
     .online h3 {
-        font-size: 3vw;
+        font-size: 3.25vw;
         letter-spacing: .1vh;
         line-height: 4.5vw;
     }
     .online-form {
-        margin-top: -82vw;
+        margin-top: -95vw;
     }
     .online-form i {
         font-size: 6vw;
@@ -712,7 +712,7 @@ body {
         min-width: 75vw;
         font-size: 3.5vw;
         border-radius: 5vw;
-        margin-bottom: 2vw;
+        margin-bottom: 2.75vw;
         padding: 1.25vw 1.25vw 1.25vw 9vw;
     }
     .online-form button {
