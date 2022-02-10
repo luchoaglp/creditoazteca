@@ -685,12 +685,12 @@ body {
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
-        min-height: 170vw;
+        min-height: 175vw;
         margin-top: -18vw;
     }
     .online h1 {
         margin-top: 27vw;
-        font-size: 4vw;
+        font-size: 4.25vw;
         letter-spacing: .1vh;
         margin-bottom: 6vw;
         line-height: 6vw;
@@ -709,7 +709,7 @@ body {
         margin-top: 1vw;
     }
     .online-form input[type=text], .online-form input[type=email] {
-        min-width: 75vw;
+        min-width: 82vw;
         font-size: 3.5vw;
         border-radius: 5vw;
         margin-bottom: 2.75vw;
