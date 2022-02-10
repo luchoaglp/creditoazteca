@@ -482,7 +482,7 @@ body {
     }
     .about div.col p {
         font-size: 2.6vw;
-        line-height: 2.75vw;
+        line-height: 2.8vw;
         top: 41vw;
         padding: 0 3.5vw;
         min-width: 34vw;
@@ -509,22 +509,22 @@ body {
         top: 1.5vw;
     }
     .branch div.col-4 h5 {
-        font-size: 2.5vw;
+        font-size: 2.75vw;
     }
     .branch div.col-4:nth-child(1) h5 {
-        top: 15.3vw;
+        top: 15.5vw;
         left: 6.5vw;
     }
     .branch div.col-4:nth-child(2) h5 { 
         top: 19vw;
-        left: 12.5vw;
+        left: 11.5vw;
     }
     .branch div.col-4:nth-child(3) h5 {
-        top: 15.3vw;
-        left: 12vw;
+        top: 15.5vw;
+        left: 10.5vw;
     }
     .branch div.col-4 h6 {
-        font-size: 2.5vw;
+        font-size: 2.75vw;
     }
     .branch div.col-4:nth-child(1) h6 {
         top: 21.5vw;
@@ -547,7 +547,7 @@ body {
         left: -14vw;
     }
     .branch div.col-4 p {
-        font-size: 2.2vw;
+        font-size: 2.3vw;
         min-width: 25vw;
         line-height: 3vw;
         letter-spacing: .04vw;
