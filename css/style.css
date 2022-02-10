@@ -470,7 +470,7 @@ body {
     }
     .about div.col:nth-child(1) h5 {
         top: 34.5vw;
-        left: 6vw;
+        left: 5.5vw;
     }
     .about div.col:nth-child(2) h5 {
         top: 33.5vw;
@@ -481,13 +481,13 @@ body {
         left: 11.5vw;
     }
     .about div.col p {
-        font-size: 2.45vw;
-        line-height: 2.7vw;
-        top: 40vw;
-        padding: 0 2vw;
+        font-size: 2.7vw;
+        line-height: 2.75vw;
+        top: 41vw;
         min-width: 27vw;
     }
     .about div.col:nth-child(1) p {
+        padding-left: 2vw;
         left: -2vw;
     }
     .about div.col:nth-child(2) p {
